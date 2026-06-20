@@ -1,0 +1,1909 @@
+text,flair,label,notes
+"Ingesting 1million order books per second, real time, into KDB with Rust.",Personal Project Showcase,,
+ContractForge - Start with intent. Then think about the platform.,Career,,
+Should I switch from Windows to Linux for Data Engineering? Which Distro is best,Discussion,,
+"benchmarked Pandas, DuckDB, and Polars on 20M rows across 10 operations...",Discussion,,
+Standard profiling libraries completely break on time series data (I learned it the hard way and came up with a solution),Personal Project Showcase,,
+We open-sourced Chukei: a self-hosted Snowflake cost proxy for read-heavy workloads,Open Source,,
+Suggest 1 place to explore the below services,Career,,
+"I built a CLI tool that analyzes BigQuery tables 
+and explains what the data means using AI",Personal Project Showcase,,
+Making projects or learning tools-which would help me land a job,Help,,
+"I am building a declarative, zero-panic database migration engine to replace fragile enterprise suites.",Personal Project Showcase,,
+worlcup 26 with AI feature,Personal Project Showcase,,
+Using a medallion architecture that customer insights journey consumes from,Help,,
+"Medallion + Kimball I’m working on a project that uses the medallion architecture but we’re also trying to set up a data model that follows kimballs facts and dim table. 
+
+in what layer does this live in?
+
+  
+initially I thought it’d live in silver but I’m ready that silver is more like raw tables that have been cleaned up. now I’m conflicted on if it should live in gold but I’m reading that  gold should be report ready tables so now I’m scratching my head.
+
+i know there’s not a hard fast rule to this as its not a one size fits all thing but what have been your experiences?",Help,,
+"How did you weigh a higher paying but toxic offer against a stable, lower paying job? Hey everyone, some background to help paint a picture:
+
+* I have nearly 5 years of experience as a data migration engineer/specialist, specifically in SaaS/CRM/Salesforce environments.
+* I've worked across 3 different verticals, so I've had decent exposure to a range of datasets and business rules.
+* Tech wise..strictly Python, SQL, and Excel, no fancier tools, and none of the companies I've worked for have used any.
+* I currently make $78k and live in a top 3 most expensive city in the US. My salary covers my expenses, but leaves little room for savings.
+* My current job is stable with growth potential, but it's likely slow, I don't expect big jumps in salary even with promotions, which may come in the next 1-2 years.
+
+With that out of the way: I recently got an offer for a role with a different title that functions essentially the same as my current job, still no fancy tools, but in a new vertical for me.
+
+The pay is much higher, $135k, fully remote, with 10% travel. My concern is that nearly every review I've read online describes a toxic environment and high turnover. Out of my 5 interviews (8 different people total), only one person had been there >= 1.5 years, despite the company being around for about 10.
+
+Alternatively, I could take this offer to my current employer as leverage. Realistically, I doubt they'd counter above $90-95k, maybe $100k at the absolute best.
+
+I'm still young(30) and feel like I'm at a crossroads. I don't want to be blinded by the salary, but I also don't know when I'll get a shot at this kind of money again, I've never even broken six figures.
+
+Would love to hear any advice or stories from people who've had to make a similar decision.",Career,,
+"What do to with data context? I have been hearing a lot on data context during Snowflake and Databricks event. I mean all the vendor where pitching some sort of context related solution.
+
+Yes, I understand that it brings knowledge to your LLM and they can understand the business domain, but the question is SQL generation / natural language to insights or AI/BI is extremely tricky. In the world of software engineers the code generation are not directly impacting the decision worse case it regenerates and fixes the bug. I believe the code generation is more standardised and LLM have very less chance of hallucination as improvements keep rolling. 
+
+For SQL if a business user asks: show me the productA revenue trend for past week? 
+
+The question is what is the accuracy of the SQL generation, even its 90% that means 1 in 10 question will be incorrect and the business decision will negatively impacted. 
+
+Would love to hear more views and are we chasing the right target?",Discussion,,
+"Airflow sensors, Snowflake views and a few unexpected bottlenecks",Blog,,
+Capstone: a leakage-audited clinical length-of-stay pipeline (dbt + DuckDB + sklearn),Personal Project Showcase,,
+How do you guyz manage your Jupyter notebooks without losing your mind?,Discussion,,
+How do you guyz manage your Jupyter notebooks without losing your mind? :😢,Help,,
+where can i get this diagram template,Help,,
+Is kaggle still relevant?,Discussion,,
+AXA or GFT technologies? What to choose?,Career,,
+"Data Engineering benchmarks for Ai tooling. My team is trying to evaluate different agentic DE setups.  We see two main benchmarks (dbt's ADE bench and UC Berkeley's DAB).
+
+We see a bunch of solutions scoring themselves against this.  But for ADE it's self reported.
+
+Plus the setups we want to benchmark are all a bit different from what the Benchmark sites are reporting on. 
+
+Does anybody have guidance on how to approach this, especially in a way that does not burn through a gazillion tokens.
+
+We are a Claude shop, if that helps.  We run on both Snowflake and Databricks and Genie and CoCo are both part of the evaluation.",Discussion,,
+Need references and tutorials link,Help,,
+Medallion Architecture and dbt modeling,Open Source,,
+personal project showcase - worlcup 2026 with AI feature,Personal Project Showcase,,
+How many Airflow Tasks do you schedule daily?,Discussion,,
+Side project  - worldcup 2026 databrick with three tiers,Personal Project Showcase,,
+Tech stack pivot experiences,Career,,
+"4 YOE in Payment Operations Support - Continue .NET or Switch to Azure Data Engineering, Current in-hand salary is 50k at Infosys?",Help,,
+new to data engineering - how do you measure agent performance and troubleshoot? (sales bot),Career,,
+"Where should ""drop bad rows"" live -- in the transform, or in a separate data-quality step? (medallion pipeline)",Help,,
+"Anyone use duckdb/ducklake in production? I work for a startup and trying to introduce ducklake as our main datalake solution and plan to start from the ETL pipeline to ingest data into ducklake directly. Could you share you experience if you are doing something similar in production? About the stability and performance.
+
+Thanks.",Discussion,,
+Career Transition Suggestion,Career,,
+Where do AI-assisted data workflows actually break for data engineers?,Discussion,,
+"Unified Data Repository Hi, I'm new to this field so one question I have is how do you guys consolidate data from different sources? Even better is if they're able to be classified according to context.   
+  
+May I know what tools, platform, or methodology you employ?",Help,,
+Colin Jarvis | Head of Forward Deployed Engineering at OpenAI: Trust. Pr...,Career,,
+Biggest challenge in Data Pipeline,Discussion,,
+"Databricks vs Snowflake vs Azure/GCP/AWS products Hello fellow data engineers! I don't use any of these database services but I'm trying to wrap my head around what the point is.
+
+  
+Granted, I work for a tiny company and we manage our data mostly through direct cloud (AWS) and python/sql scripts.
+
+So my question is, why does YOUR company use Databricks/Snowflake, and why don't you use nothing, or one of the similar services as a package with your cloud provider?
+
+Looking for the REAL reasons, not the marketing copy you tell investors or your boss. For example, we use Bloomberg not because it's a great data platform, but because it's a great social network of finance people, as well as a trade management system. Everything else is replaceable.
+
+Appreciate your time!",Discussion,,
+"DB development (migrations, dbt) in a multi-dev set up I work at a large organization where you are given access to a database server based on your application. And usually you’re given three DB servers for the app: for dev, for qa and for prod. Great! But we’ve found that while that is fine for one developer making changes, it becomes clunky when multiple developers are working on DB-related coding tweaks. (Alembic migrations, dbt scripts, etc.)
+
+To account for this, our dev team wanted to install MS SQL Server Developer edition locally and do dev work there before pushing changes to the dev server we all work out of for testing the application.
+
+IT said this would out of standard and their developers just work in the dev servers so we can too (basically). 
+
+So I’m just wondering if we’re doing something wrong with our dev approach currently that would allow us to just work on the same dev db server or if we need to push IT a bit on this. Thanks!",Help,,
+Graph-to-relational transform. Am I doomed?,Help,,
+"How get more invitations as a DE? How to improve my knowledge check I am a Python developer with 5/6 years of experience. I have worked with FastAPI and a bit with Flask. I struggle a bit with Dockers but normally in the cover letter I say that I manage it.
+
+Regarding SQL: I consider myself intermediate level: can do Joins and filters (having, where...) and also groupping. I have never done CTE but I think after like 10 hours practicing I could manage it, which by the way is what I am trying to do these next weeks.
+
+I have some basic knowledge from R
+
+More into DE field. 
+
+I am kind of confident in PySpark. I would have to get better into repartition and coalesce, but I kind of understand what's going on.
+
+I got a voucher to do the Databricks Engineer Associate that I will redeem in like 2/3 weeks. Right now I am getting 60% of the exam right. In the cover letter however I ""exagerate"" saying that I already have it.
+
+I am doing also a course which will give me a voucher for an AWS exam too. The one of cloud practicioner. 
+
+  
+And here my question. Why can't I even get a call for a DE job? Am I missing a lot of stuff? I feel like when I read a job description I have sometimes 90% of the things they are asking for. But I get rejected and rejected. Since October I have sent more than 35 requests with the covering letter and just 2 talks. 
+
+  
+What would you improve? I was thinking about getting some more basic certifications and publishing it in likeding (things like Snowflake and DBT maybe). Are they extremely hard?
+
+What would be your approach? I am kind of lost and I don't know why I am being constantly rejected.",Career,,
+"I need scrapers hosting advice! Data Engineers, where do you host your web scraping process? I'm looking for an affordable hosting service that can support large scale scraping specifically, preferably as functions or workflows?",Discussion,,
+Feedback: Multi-modal dataset pipeline,Discussion,,
+Junior Recommendations to get into the field,Career,,
+How do you actually monitor Databricks job failures? Ours failed silently for 3 days.,Discussion,,
+How would you store millions of 1MB–1GB objects without keeping indexes in RAM?,Open Source,,
+Advice for a physicist that wants to transition to the data world,Help,,
+"Spent 1 month building this project - ""Excalidraw Sketch to Schema and vice versa"", What do you think?",Personal Project Showcase,,
+"Data at Scale: one-day conference on large-scale data processing (Amsterdam, 7 July 2026) Hosting a one-day, single-track conference in Amsterdam on 7 July. In person, no breakouts.
+
+The CFP bar is real-world analysis of large datasets. Vendors and competitors welcome on the same terms as practitioners. We favor talks from people who actually ran the workload.
+
+Opening keynote from Alexey Milovidov (original author of ClickHouse). The rest of the program comes from open CFP.
+
+\- Website: [https://dataatscale.dev](https://dataatscale.dev)  
+\- Registration (Luma, free): [https://luma.com/clickh-ha56](https://luma.com/clickh-ha56)   
+\- CFP (Sessionize, open until 20 June): [https://sessionize.com/data-at-scale-amsterdam/](https://sessionize.com/data-at-scale-amsterdam/) 
+
+ClickHouse hosts and organizes the event. Data at Scale stands as a community conference in its own right.",Open Source,,
+"Silver or gold layer I have two scenarios : i need to create a beneficiary hub
+
+&#x200B;
+
+Case 1 : i need to have conformed dimension for beneficiary where bwneficiary are coming f4om 3 different entitites ( everything is unique )
+
+&#x200B;
+
+Case 2: i need to have conformed dimension for beneficiary where bwneficiary are coming from 3 different entitites (some overlap ) 
+
+&#x200B;
+
+Please note the granularity is not same across beneficiary table from 3 systems
+
+&#x200B;
+
+Where should i place this ?  Should this be placed in silver or should this be placed in gold
+
+&#x200B;
+
+I belive it should be placed in silver",Help,,
+"DAIS 2026 Databricks updates I am creating a playlist on youtube to follow the latest announcements by Databricks in DAIS 2026. 
+
+The series will cover what was the problem,
+
+What Databricks announced
+
+And, why does it matter to the Data community (basically the impact)
+
+Please follow along if you don't want to spend hours in watching the keynotes.
+
+https://youtu.be/jb4uLAM2SRA?si=IseC5sat5gUuU-S6
+
+Thank you for the support.",Blog,,
+looking for the best free courses to start my Data Engineering journey.,Career,,
+Do you outsource managed services? And to whom?,Help,,
+Besteedt iemand managed services uit? En aan wie?,Help,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Architectural critique: Streaming massive CSVs on edge devices with a strict 15MB RAM boundary (OOM bypass),Personal Project Showcase,,
+Advice on Finding Freelance / Part-Time Data Engineering Work,Career,,
+Why does every data incident feel like the same nightmare on repeat,Discussion,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Devops or data engineering?,Help,,
+Why Data Engineers Are Paying Attention to Altimate,Career,,
+"Out of the scraping game a few years, what does everyone run now? Did a lot of scrapy + custom middleware back in 2021. Picking it up again, this time I need to scrape google search results at scale. Way more anti bot now, cloudflare everywhere. You all still doing it on your own, or has the serp side moved to apis? just want to know what people actually use daily.",Help,,
+data analyse (ingenerie de donnees),Blog,,
+"Is the compTIA A+ material interesting for a DE with lots of data knowledge but no IT background? Basically, I came into DE via a research PhD in economics. My first role had me mainly building models in SQL, some batchjobs, mainframe and scheduling, little to no devOps, no cloud. My second role now got me the whole shebang: spark, devOps, Airflow, SQL, cloud and on prem, containers, MLops, linux... Because of my economics background im really strong in the data part of the job, I also read Kimball and DDIA etc through the years, but I feel like I'm missing most of the basics in IT otherwise (basic OS (although I have my linux homeserver), networking, DSA...) and I notice this when my colleagues talk about the more technical part of containers, ports, releases of certain programs, APIs etc.
+
+My job gave me an O'Reilly learn account and I found the compTIA prep courses/books. I was wondering if these are a nice basis for becoming a more technical DE without a CS degree (not interested in actually doing the exams though). Anybody has experience with this?",Discussion,,
+"Are hard deletes still common in new data sources in 2026? Hi all,
+
+I'm looking for your input and real world experiences.
+
+**Case** *(updated description)*:
+
+I'm tasked with ingesting data daily into a Microsoft Fabric Lakehouse (medallion architecture).
+
+The data source is a new operational app built on Azure SQL Database.
+
+The Azure SQL DB will have ~50 tables with relatively lightweight rows (~30 columns, no large text/blob fields).
+
+The app team owning the Azure SQL DB plans to use hard deletes only, with no CDC, no soft deletes.
+
+- Is this still common in 2026?
+
+- Would you push back on this? 
+
+   - If yes - how hard would you push back?
+
+- When does daily full copy from source become unrealistic (10M / 100M / 1B rows)?
+
+Thanks in advance!",Discussion,,
+What skills do I need in today's day and AI age to land a new role?,Career,,
+Is Data Engineering quietly becoming the most important role in AI?,Career,,
+"GitHub - krishnashakula/browsewright: Give an LLM a URL and a goal — it drives a real browser, fills forms, and returns structured data. The browser that scripts itself.",Open Source,,
+"Built a SQL game where all query execution runs client-side via SQLite WASM - no backend, no server costs",Personal Project Showcase,,
+"Case Study or Live Session - Which do you hate more? I'm the hiring process. Just spent like 6-7hrs on a ""case study,"" inventing scenarios, putting together some slides etc, then interviewed this morning, only to get rejected after a third round. So pissed. Thought I aced that thing all around. So it got me thinking--I have never actually gotten a job from doing a case study, but I've done probably half dozen of those things in the past and gotten pretty far in the hiring rounds. I'm senior enough now that I think in the future, I'll decline any ""opportunities"" where you spend 5+ hours on BS homework with no compensation. 
+
+Thoughts? Which would you prefer?",Career,,
+Looking for quick and easy way to get some work,Career,,
+Cheap/OSINT tools for historical social graphs,Help,,
+Transition to Data Engineering,Discussion,,
+Does a dbt staging view full scan the source table every run?,Discussion,,
+"DE to SA move in USA Has anyone made such move in USA from DE to SE ? Do we get to be technical in SE role? I talked with one of the SAs and he said SA role is very difficult. Your AE matters how your work life balance is. Some said you don’t even get to meet your manager.  
+How does the on call look like ? 
+
+I’d really appreciate advice on what to consider from these two offers.
+
+SE role at Databricks - TC low 300s  
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+"Moving from Data Engineering to Solutions Engineering Has anyone made such move in USA? 
+
+SE role at Databricks - TC low 300s   
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+I built an architecture to stop dbt bill shock at the PR level. Would love feedback.,Discussion,,
+Need study partner for gcp data engineering,Help,,
+Data/AI Engineer trying to break into freelancing/consulting – looking for real-world advice,Career,,
+"Balancing developer velocity with governance after last week's Snowflake Summit Snowflake announced CoCo Desktop and Snowflake CoWork at Summit, as ways for developers and business users to build agents on the platfrom. This means that automated pipeline generation and AI-generated data are going to scale quickly. It also means that the focus now turns to preventing pipeline redundancy, establishing trusted context, and managing non-human session access.
+
+I wrote a no-fluff recap of Snowflake's newly announced features that make up the contorl plane of the agentic enterprise. [Read the full post here](https://www.capitalone.com/software/blog/scaling-agentic-enterprise-snowflake/?utm_campaign=sf_summit&utm_source=reddit&utm_medium=social-organic).",Blog,,
+"Roadmap for Data Engineer in Fintech industry Hi folks,
+
+I’m currently working in a Facilities Management firm in the UK where a lot of the reporting and data work is heavily relied on Excel with SQL being used relatively less as it is handled by mainly development team. All I do is querying data from different databases. Only few reports are done in Power BI and luckily I am working on one of the reports from scratch. 
+
+My aim is to move into the finance industry, ideally as a Data Engineer to begin with. 
+
+I currently hold a Master’s in Business Analysis and Consulting and have my Bachelors in CS. I’ve worked with Python before and also used to do competitive programming in C++, so I’m comfortable with technical concepts.
+
+I’m currently trying to strengthen my SQL further by focusing on more advanced concepts like CTEs, subqueries, window functions etc.
+
+Also preparing for PL-300 power BI certification to begin with then gradually into Databricks, PySpark. But I feel I still need clarity is the exact roadmap.
+
+I’m not fully sure if I should do PySpark first or advanced SQL first or when should I start familiarising myself with databricks before azure or any other cloud services 
+
+I’d really appreciate advice from people already working in data roles, especially in finance, BI, or data engineering.
+
+Thanks :)",Help,,
+SnowPro Certification worth it?,Help,,
+"Databricks conference I have been attending the databricks conference, but nothing has stood out to me as being very exciting.
+
+&#x200B;
+
+Have folks found anything interesting or something you may actually be excited for in the DE space?",Discussion,,
+"Lets improve CSV? Hi everyone, 
+
+If you ever dealt with CSV, which I'm sure most of us here have, you've faced problems to represent real data like repeating fields and hierarchies with the flatness of CSV. There's many ways to solve that problem - and the variety is what hurts us. Sometimes we create column\_1, column\_2, column\_3 for repeating fields. sometimes we create multiple csv files, sometimes we repeat rows, etc. 
+
+Having hierarchy, or relationships between columns in csv is unheard of. I've used prefixes on the column names, but that is just too vague. With that in mind, I've been trying to have some standard where everyone can develop solutions n a similar fashion and with that, make it a lot more robust and reusable. I'm proposing an RFC that tackles those two issues without making it super cumbersome. This is not a replacement for JSON or XML for extreme examples, but is a way to fill the gap for simpler scenarios where a full jump into JSON/XML parsers are not the best, or we are stuck with CSV for whatever reason. 
+
+We can all continue to creating one-off solutions for going around how to implement repeating fields and hierarchy, but thats wasteful. And if there's no consensus, tools like databases, spreadsheets data pipelines cannot agree on how to properly parse data. 
+
+Disclosure: I've been developing this on my own time, without any organization affiliation. It's meant to be open source, community driven, to maximize the possibility of full implementation 
+
+thank you for your attention! 
+
+References: 
+
+Website: [https://www.csvplusplus.com/](https://www.csvplusplus.com/)   
+Repository: [https://github.com/mscaldas2012/csvplusplus](https://github.com/mscaldas2012/csvplusplus)   
+RFC: [https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/](https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/)",Open Source,,
+"bigquery fails to extract schema from google cloud storage hello, i hope everyone is doing good.  
+i have run to a problem.
+
+my airflow script : load a data file **.parquet** to the **cloud storage**  
+then -> it creates a table in **bigquery** and the -> load the data from that **.parquet** file in cloud storage to the table in **bigquery.**
+
+  
+the problem is : if i provide the schemas of the data ( that need to be loaded from cloud storage to bigquery), the table get created and get the schema with the data (all good) but if i dont provide the schema as i commented bellow, **bigquery** through an error ( **no schema found )** 
+
+    create_gcs_external_table = BigQueryCreateExternalTableOperator(
+        task_id=""create_external_table"",
+        bucket=GCS_BUCKET_NAME,
+        source_objects=[GCS_FILE_PATH], # Relative path inside bucket (without gs:// prefix)
+        source_format=""PARQUET"",
+        destination_project_dataset_table=f'{BIGQUERY_DATASET}.{BIGQUERY_TABLE_NAME}',
+        gcp_conn_id=""google_cloud_default"",
+        autodetect=True, # Let BigQuery infer the schema automatically
+    
+    
+        # schema_fields=[
+        #     {""name"": ""VendorID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_pickup_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_dropoff_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""passenger_count"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""trip_distance"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""RatecodeID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""store_and_fwd_flag"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""PULocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""DOLocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""payment_type"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""fare_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""extra"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""mta_tax"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tip_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tolls_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""improvement_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""total_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""congestion_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        # ],
+    
+    
+    )
+
+**how i can do it automaticaly ?** 
+
+**i thought about the parser, maybe the script turning a dataframe to parquet before ingesting it to the google cloude storage uses a different parser than what bigquery is trying to parse with !!**
+
+    df = pd.read_csv(target_compressed_csv, low_memory=False)
+    
+    df.to_parquet(local_parquet_path, engine=""pyarrow"", compression=""snappy"")",Help,,
+Let's improve on CSV?,Open Source,,
+One should be data analyst to become a data engineer?,Discussion,,
+"Looking for pain points for data engineers about upstream and downstream schema changes and how you solve it. Risk and migitation strategies discussion. Hello, I’m part of a product management course and my team is doing discovery research and we have decided to investigate 2am(and everyday) data pipeline failures due to downstream or upstream schema changes from 3rd party vendors or in-house engineers.
+
+I would very much like to hear your experience with the field both in the traditional era, pre-date modern data solutions but also fast-forward today. What are the current risk and mitigations strategies and actionable plans you have set in motion in your lifetime.
+
+Anything could be of value, and I'm very transparent so if you have questions about motive or want the why and how of our journey I'm happy to write it in.
+
+Examples of particular pain points could include:
+
+* vendor API responses changing unexpectedly
+* columns being renamed, removed, or changing type
+* scraper outputs changing when websites change
+* dbt models, warehouse tables, dashboards, or downstream jobs breaking because of schema drift
+* late-night / on-call incidents caused by data contract or schema issues
+
+  
+We’re trying to understand the real workflow: how teams detect these changes, who gets paged, how fixes happen, what tools people already use, and what parts are still painful.
+
+If you got any particular insight you can always reach out. I'm aware that interviews are out of the question so I want to open up it as a discussion that anyone can learn from - particular me as I have no to limited experience in big data.
+
+Happy wednesday and many thanks in advance.
+
+P.s. if you have any pointers on finding expert viewpoints or articles regarding this it would be as appreciated.",Discussion,,
+"Load .json from VScode to Snowflake Hello, I'm learning DE and i'm on a project.   
+  
+My question might be ridiculous. so I'm sorry.  
+  
+I'm working on VScode, and thanks to an API I've got a .json() so now i want to load my data on Snowflake to be able to start ""transform"" my data but I have no clue how to load my data to snowflake.  
+All the data i worked with during my teaching class were on a S3 server and it was easy to get it.   
+In my terminal i do 'python3 request.py', i can see the data but no idea how to load it to snowflake.  
+  
+My vscode and snowflake are linked  
+  
+Thanks by advance",Help,,
+"AI isn't closing the skill gap on data teams, it's widening it",Discussion,,
+"Need a template/guidelines for a final report on a BI/Data Engineering project (curricular internship) Hey guys!
+
+For my curricular internship I built an ETL pipeline using medallion architecture (bronze, silver, gold) on Microsoft Fabric. The source data are Excel files pulled from a container in Azure Data Storage, and I have a ""run layer"" support notebook for each stage of the pipeline. The final model is a star schema, on top of which I built Power BI reports.
+
+This was my first time doing an end-to-end project like this, and now I need to write a final report covering everything I did, how the data is processed, the modelling decisions, etc.
+
+The problem: my university doesn't provide a template for this kind of report (BI/Data Engineering or otherwise), and the company I interned at only has separate Functional Analysis and Technical Design templates, which split things up differently than what I need for a single end-to-end report.
+
+So I'm looking for pointers on how to structure this: what sections to include, how much detail to go into for each layer/process, how to document data modelling decisions, etc. Any templates you've used or would recommend? Happy to share more details about the project if it helps with suggestions.
+
+Thanks",Help,,
+Snowflake data model for retail – feedback?,Discussion,,
+Anyone used Spark Connect?,Discussion,,
+"What kind of ETL pipeline would be helpful when the incoming file is an excel and the structure keeps changing and every piece of info is important and needs to be loaded into the Db? I am currently working on a Project which requires me to design the eel pipeline to be scalable and automated and work without human intervention, but the structure of the incoming doc is an excel sheet pretty unstructed and messy and the thing to worry about is the data (attributes) keep changing .",Blog,,
+"Ingesting 1million order books per second, real time, into KDB with Rust.",Personal Project Showcase,,
+ContractForge - Start with intent. Then think about the platform.,Career,,
+Should I switch from Windows to Linux for Data Engineering? Which Distro is best,Discussion,,
+"benchmarked Pandas, DuckDB, and Polars on 20M rows across 10 operations...",Discussion,,
+Standard profiling libraries completely break on time series data (I learned it the hard way and came up with a solution),Personal Project Showcase,,
+We open-sourced Chukei: a self-hosted Snowflake cost proxy for read-heavy workloads,Open Source,,
+Suggest 1 place to explore the below services,Career,,
+"I built a CLI tool that analyzes BigQuery tables 
+and explains what the data means using AI",Personal Project Showcase,,
+Making projects or learning tools-which would help me land a job,Help,,
+"I am building a declarative, zero-panic database migration engine to replace fragile enterprise suites.",Personal Project Showcase,,
+worlcup 26 with AI feature,Personal Project Showcase,,
+Using a medallion architecture that customer insights journey consumes from,Help,,
+"Medallion + Kimball I’m working on a project that uses the medallion architecture but we’re also trying to set up a data model that follows kimballs facts and dim table. 
+
+in what layer does this live in?
+
+  
+initially I thought it’d live in silver but I’m ready that silver is more like raw tables that have been cleaned up. now I’m conflicted on if it should live in gold but I’m reading that  gold should be report ready tables so now I’m scratching my head.
+
+i know there’s not a hard fast rule to this as its not a one size fits all thing but what have been your experiences?",Help,,
+"How did you weigh a higher paying but toxic offer against a stable, lower paying job? Hey everyone, some background to help paint a picture:
+
+* I have nearly 5 years of experience as a data migration engineer/specialist, specifically in SaaS/CRM/Salesforce environments.
+* I've worked across 3 different verticals, so I've had decent exposure to a range of datasets and business rules.
+* Tech wise..strictly Python, SQL, and Excel, no fancier tools, and none of the companies I've worked for have used any.
+* I currently make $78k and live in a top 3 most expensive city in the US. My salary covers my expenses, but leaves little room for savings.
+* My current job is stable with growth potential, but it's likely slow, I don't expect big jumps in salary even with promotions, which may come in the next 1-2 years.
+
+With that out of the way: I recently got an offer for a role with a different title that functions essentially the same as my current job, still no fancy tools, but in a new vertical for me.
+
+The pay is much higher, $135k, fully remote, with 10% travel. My concern is that nearly every review I've read online describes a toxic environment and high turnover. Out of my 5 interviews (8 different people total), only one person had been there >= 1.5 years, despite the company being around for about 10.
+
+Alternatively, I could take this offer to my current employer as leverage. Realistically, I doubt they'd counter above $90-95k, maybe $100k at the absolute best.
+
+I'm still young(30) and feel like I'm at a crossroads. I don't want to be blinded by the salary, but I also don't know when I'll get a shot at this kind of money again, I've never even broken six figures.
+
+Would love to hear any advice or stories from people who've had to make a similar decision.",Career,,
+"What do to with data context? I have been hearing a lot on data context during Snowflake and Databricks event. I mean all the vendor where pitching some sort of context related solution.
+
+Yes, I understand that it brings knowledge to your LLM and they can understand the business domain, but the question is SQL generation / natural language to insights or AI/BI is extremely tricky. In the world of software engineers the code generation are not directly impacting the decision worse case it regenerates and fixes the bug. I believe the code generation is more standardised and LLM have very less chance of hallucination as improvements keep rolling. 
+
+For SQL if a business user asks: show me the productA revenue trend for past week? 
+
+The question is what is the accuracy of the SQL generation, even its 90% that means 1 in 10 question will be incorrect and the business decision will negatively impacted. 
+
+Would love to hear more views and are we chasing the right target?",Discussion,,
+"Airflow sensors, Snowflake views and a few unexpected bottlenecks",Blog,,
+Capstone: a leakage-audited clinical length-of-stay pipeline (dbt + DuckDB + sklearn),Personal Project Showcase,,
+How do you guyz manage your Jupyter notebooks without losing your mind?,Discussion,,
+How do you guyz manage your Jupyter notebooks without losing your mind? :😢,Help,,
+where can i get this diagram template,Help,,
+Is kaggle still relevant?,Discussion,,
+AXA or GFT technologies? What to choose?,Career,,
+"Data Engineering benchmarks for Ai tooling. My team is trying to evaluate different agentic DE setups.  We see two main benchmarks (dbt's ADE bench and UC Berkeley's DAB).
+
+We see a bunch of solutions scoring themselves against this.  But for ADE it's self reported.
+
+Plus the setups we want to benchmark are all a bit different from what the Benchmark sites are reporting on. 
+
+Does anybody have guidance on how to approach this, especially in a way that does not burn through a gazillion tokens.
+
+We are a Claude shop, if that helps.  We run on both Snowflake and Databricks and Genie and CoCo are both part of the evaluation.",Discussion,,
+Need references and tutorials link,Help,,
+Medallion Architecture and dbt modeling,Open Source,,
+personal project showcase - worlcup 2026 with AI feature,Personal Project Showcase,,
+How many Airflow Tasks do you schedule daily?,Discussion,,
+Side project  - worldcup 2026 databrick with three tiers,Personal Project Showcase,,
+Tech stack pivot experiences,Career,,
+"4 YOE in Payment Operations Support - Continue .NET or Switch to Azure Data Engineering, Current in-hand salary is 50k at Infosys?",Help,,
+new to data engineering - how do you measure agent performance and troubleshoot? (sales bot),Career,,
+"Where should ""drop bad rows"" live -- in the transform, or in a separate data-quality step? (medallion pipeline)",Help,,
+"Anyone use duckdb/ducklake in production? I work for a startup and trying to introduce ducklake as our main datalake solution and plan to start from the ETL pipeline to ingest data into ducklake directly. Could you share you experience if you are doing something similar in production? About the stability and performance.
+
+Thanks.",Discussion,,
+Career Transition Suggestion,Career,,
+Where do AI-assisted data workflows actually break for data engineers?,Discussion,,
+"Unified Data Repository Hi, I'm new to this field so one question I have is how do you guys consolidate data from different sources? Even better is if they're able to be classified according to context.   
+  
+May I know what tools, platform, or methodology you employ?",Help,,
+Colin Jarvis | Head of Forward Deployed Engineering at OpenAI: Trust. Pr...,Career,,
+Biggest challenge in Data Pipeline,Discussion,,
+"Databricks vs Snowflake vs Azure/GCP/AWS products Hello fellow data engineers! I don't use any of these database services but I'm trying to wrap my head around what the point is.
+
+  
+Granted, I work for a tiny company and we manage our data mostly through direct cloud (AWS) and python/sql scripts.
+
+So my question is, why does YOUR company use Databricks/Snowflake, and why don't you use nothing, or one of the similar services as a package with your cloud provider?
+
+Looking for the REAL reasons, not the marketing copy you tell investors or your boss. For example, we use Bloomberg not because it's a great data platform, but because it's a great social network of finance people, as well as a trade management system. Everything else is replaceable.
+
+Appreciate your time!",Discussion,,
+"DB development (migrations, dbt) in a multi-dev set up I work at a large organization where you are given access to a database server based on your application. And usually you’re given three DB servers for the app: for dev, for qa and for prod. Great! But we’ve found that while that is fine for one developer making changes, it becomes clunky when multiple developers are working on DB-related coding tweaks. (Alembic migrations, dbt scripts, etc.)
+
+To account for this, our dev team wanted to install MS SQL Server Developer edition locally and do dev work there before pushing changes to the dev server we all work out of for testing the application.
+
+IT said this would out of standard and their developers just work in the dev servers so we can too (basically). 
+
+So I’m just wondering if we’re doing something wrong with our dev approach currently that would allow us to just work on the same dev db server or if we need to push IT a bit on this. Thanks!",Help,,
+Graph-to-relational transform. Am I doomed?,Help,,
+"How get more invitations as a DE? How to improve my knowledge check I am a Python developer with 5/6 years of experience. I have worked with FastAPI and a bit with Flask. I struggle a bit with Dockers but normally in the cover letter I say that I manage it.
+
+Regarding SQL: I consider myself intermediate level: can do Joins and filters (having, where...) and also groupping. I have never done CTE but I think after like 10 hours practicing I could manage it, which by the way is what I am trying to do these next weeks.
+
+I have some basic knowledge from R
+
+More into DE field. 
+
+I am kind of confident in PySpark. I would have to get better into repartition and coalesce, but I kind of understand what's going on.
+
+I got a voucher to do the Databricks Engineer Associate that I will redeem in like 2/3 weeks. Right now I am getting 60% of the exam right. In the cover letter however I ""exagerate"" saying that I already have it.
+
+I am doing also a course which will give me a voucher for an AWS exam too. The one of cloud practicioner. 
+
+  
+And here my question. Why can't I even get a call for a DE job? Am I missing a lot of stuff? I feel like when I read a job description I have sometimes 90% of the things they are asking for. But I get rejected and rejected. Since October I have sent more than 35 requests with the covering letter and just 2 talks. 
+
+  
+What would you improve? I was thinking about getting some more basic certifications and publishing it in likeding (things like Snowflake and DBT maybe). Are they extremely hard?
+
+What would be your approach? I am kind of lost and I don't know why I am being constantly rejected.",Career,,
+"I need scrapers hosting advice! Data Engineers, where do you host your web scraping process? I'm looking for an affordable hosting service that can support large scale scraping specifically, preferably as functions or workflows?",Discussion,,
+Feedback: Multi-modal dataset pipeline,Discussion,,
+Junior Recommendations to get into the field,Career,,
+How do you actually monitor Databricks job failures? Ours failed silently for 3 days.,Discussion,,
+How would you store millions of 1MB–1GB objects without keeping indexes in RAM?,Open Source,,
+Advice for a physicist that wants to transition to the data world,Help,,
+"Spent 1 month building this project - ""Excalidraw Sketch to Schema and vice versa"", What do you think?",Personal Project Showcase,,
+"Data at Scale: one-day conference on large-scale data processing (Amsterdam, 7 July 2026) Hosting a one-day, single-track conference in Amsterdam on 7 July. In person, no breakouts.
+
+The CFP bar is real-world analysis of large datasets. Vendors and competitors welcome on the same terms as practitioners. We favor talks from people who actually ran the workload.
+
+Opening keynote from Alexey Milovidov (original author of ClickHouse). The rest of the program comes from open CFP.
+
+\- Website: [https://dataatscale.dev](https://dataatscale.dev)  
+\- Registration (Luma, free): [https://luma.com/clickh-ha56](https://luma.com/clickh-ha56)   
+\- CFP (Sessionize, open until 20 June): [https://sessionize.com/data-at-scale-amsterdam/](https://sessionize.com/data-at-scale-amsterdam/) 
+
+ClickHouse hosts and organizes the event. Data at Scale stands as a community conference in its own right.",Open Source,,
+"Silver or gold layer I have two scenarios : i need to create a beneficiary hub
+
+&#x200B;
+
+Case 1 : i need to have conformed dimension for beneficiary where bwneficiary are coming f4om 3 different entitites ( everything is unique )
+
+&#x200B;
+
+Case 2: i need to have conformed dimension for beneficiary where bwneficiary are coming from 3 different entitites (some overlap ) 
+
+&#x200B;
+
+Please note the granularity is not same across beneficiary table from 3 systems
+
+&#x200B;
+
+Where should i place this ?  Should this be placed in silver or should this be placed in gold
+
+&#x200B;
+
+I belive it should be placed in silver",Help,,
+"DAIS 2026 Databricks updates I am creating a playlist on youtube to follow the latest announcements by Databricks in DAIS 2026. 
+
+The series will cover what was the problem,
+
+What Databricks announced
+
+And, why does it matter to the Data community (basically the impact)
+
+Please follow along if you don't want to spend hours in watching the keynotes.
+
+https://youtu.be/jb4uLAM2SRA?si=IseC5sat5gUuU-S6
+
+Thank you for the support.",Blog,,
+looking for the best free courses to start my Data Engineering journey.,Career,,
+Do you outsource managed services? And to whom?,Help,,
+Besteedt iemand managed services uit? En aan wie?,Help,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Architectural critique: Streaming massive CSVs on edge devices with a strict 15MB RAM boundary (OOM bypass),Personal Project Showcase,,
+Advice on Finding Freelance / Part-Time Data Engineering Work,Career,,
+Why does every data incident feel like the same nightmare on repeat,Discussion,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Devops or data engineering?,Help,,
+Why Data Engineers Are Paying Attention to Altimate,Career,,
+"Out of the scraping game a few years, what does everyone run now? Did a lot of scrapy + custom middleware back in 2021. Picking it up again, this time I need to scrape google search results at scale. Way more anti bot now, cloudflare everywhere. You all still doing it on your own, or has the serp side moved to apis? just want to know what people actually use daily.",Help,,
+data analyse (ingenerie de donnees),Blog,,
+"Is the compTIA A+ material interesting for a DE with lots of data knowledge but no IT background? Basically, I came into DE via a research PhD in economics. My first role had me mainly building models in SQL, some batchjobs, mainframe and scheduling, little to no devOps, no cloud. My second role now got me the whole shebang: spark, devOps, Airflow, SQL, cloud and on prem, containers, MLops, linux... Because of my economics background im really strong in the data part of the job, I also read Kimball and DDIA etc through the years, but I feel like I'm missing most of the basics in IT otherwise (basic OS (although I have my linux homeserver), networking, DSA...) and I notice this when my colleagues talk about the more technical part of containers, ports, releases of certain programs, APIs etc.
+
+My job gave me an O'Reilly learn account and I found the compTIA prep courses/books. I was wondering if these are a nice basis for becoming a more technical DE without a CS degree (not interested in actually doing the exams though). Anybody has experience with this?",Discussion,,
+"Are hard deletes still common in new data sources in 2026? Hi all,
+
+I'm looking for your input and real world experiences.
+
+**Case** *(updated description)*:
+
+I'm tasked with ingesting data daily into a Microsoft Fabric Lakehouse (medallion architecture).
+
+The data source is a new operational app built on Azure SQL Database.
+
+The Azure SQL DB will have ~50 tables with relatively lightweight rows (~30 columns, no large text/blob fields).
+
+The app team owning the Azure SQL DB plans to use hard deletes only, with no CDC, no soft deletes.
+
+- Is this still common in 2026?
+
+- Would you push back on this? 
+
+   - If yes - how hard would you push back?
+
+- When does daily full copy from source become unrealistic (10M / 100M / 1B rows)?
+
+Thanks in advance!",Discussion,,
+What skills do I need in today's day and AI age to land a new role?,Career,,
+Is Data Engineering quietly becoming the most important role in AI?,Career,,
+"GitHub - krishnashakula/browsewright: Give an LLM a URL and a goal — it drives a real browser, fills forms, and returns structured data. The browser that scripts itself.",Open Source,,
+"Built a SQL game where all query execution runs client-side via SQLite WASM - no backend, no server costs",Personal Project Showcase,,
+"Case Study or Live Session - Which do you hate more? I'm the hiring process. Just spent like 6-7hrs on a ""case study,"" inventing scenarios, putting together some slides etc, then interviewed this morning, only to get rejected after a third round. So pissed. Thought I aced that thing all around. So it got me thinking--I have never actually gotten a job from doing a case study, but I've done probably half dozen of those things in the past and gotten pretty far in the hiring rounds. I'm senior enough now that I think in the future, I'll decline any ""opportunities"" where you spend 5+ hours on BS homework with no compensation. 
+
+Thoughts? Which would you prefer?",Career,,
+Looking for quick and easy way to get some work,Career,,
+Cheap/OSINT tools for historical social graphs,Help,,
+Transition to Data Engineering,Discussion,,
+Does a dbt staging view full scan the source table every run?,Discussion,,
+"DE to SA move in USA Has anyone made such move in USA from DE to SE ? Do we get to be technical in SE role? I talked with one of the SAs and he said SA role is very difficult. Your AE matters how your work life balance is. Some said you don’t even get to meet your manager.  
+How does the on call look like ? 
+
+I’d really appreciate advice on what to consider from these two offers.
+
+SE role at Databricks - TC low 300s  
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+"Moving from Data Engineering to Solutions Engineering Has anyone made such move in USA? 
+
+SE role at Databricks - TC low 300s   
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+I built an architecture to stop dbt bill shock at the PR level. Would love feedback.,Discussion,,
+Need study partner for gcp data engineering,Help,,
+Data/AI Engineer trying to break into freelancing/consulting – looking for real-world advice,Career,,
+"Balancing developer velocity with governance after last week's Snowflake Summit Snowflake announced CoCo Desktop and Snowflake CoWork at Summit, as ways for developers and business users to build agents on the platfrom. This means that automated pipeline generation and AI-generated data are going to scale quickly. It also means that the focus now turns to preventing pipeline redundancy, establishing trusted context, and managing non-human session access.
+
+I wrote a no-fluff recap of Snowflake's newly announced features that make up the contorl plane of the agentic enterprise. [Read the full post here](https://www.capitalone.com/software/blog/scaling-agentic-enterprise-snowflake/?utm_campaign=sf_summit&utm_source=reddit&utm_medium=social-organic).",Blog,,
+"Roadmap for Data Engineer in Fintech industry Hi folks,
+
+I’m currently working in a Facilities Management firm in the UK where a lot of the reporting and data work is heavily relied on Excel with SQL being used relatively less as it is handled by mainly development team. All I do is querying data from different databases. Only few reports are done in Power BI and luckily I am working on one of the reports from scratch. 
+
+My aim is to move into the finance industry, ideally as a Data Engineer to begin with. 
+
+I currently hold a Master’s in Business Analysis and Consulting and have my Bachelors in CS. I’ve worked with Python before and also used to do competitive programming in C++, so I’m comfortable with technical concepts.
+
+I’m currently trying to strengthen my SQL further by focusing on more advanced concepts like CTEs, subqueries, window functions etc.
+
+Also preparing for PL-300 power BI certification to begin with then gradually into Databricks, PySpark. But I feel I still need clarity is the exact roadmap.
+
+I’m not fully sure if I should do PySpark first or advanced SQL first or when should I start familiarising myself with databricks before azure or any other cloud services 
+
+I’d really appreciate advice from people already working in data roles, especially in finance, BI, or data engineering.
+
+Thanks :)",Help,,
+SnowPro Certification worth it?,Help,,
+"Databricks conference I have been attending the databricks conference, but nothing has stood out to me as being very exciting.
+
+&#x200B;
+
+Have folks found anything interesting or something you may actually be excited for in the DE space?",Discussion,,
+"Lets improve CSV? Hi everyone, 
+
+If you ever dealt with CSV, which I'm sure most of us here have, you've faced problems to represent real data like repeating fields and hierarchies with the flatness of CSV. There's many ways to solve that problem - and the variety is what hurts us. Sometimes we create column\_1, column\_2, column\_3 for repeating fields. sometimes we create multiple csv files, sometimes we repeat rows, etc. 
+
+Having hierarchy, or relationships between columns in csv is unheard of. I've used prefixes on the column names, but that is just too vague. With that in mind, I've been trying to have some standard where everyone can develop solutions n a similar fashion and with that, make it a lot more robust and reusable. I'm proposing an RFC that tackles those two issues without making it super cumbersome. This is not a replacement for JSON or XML for extreme examples, but is a way to fill the gap for simpler scenarios where a full jump into JSON/XML parsers are not the best, or we are stuck with CSV for whatever reason. 
+
+We can all continue to creating one-off solutions for going around how to implement repeating fields and hierarchy, but thats wasteful. And if there's no consensus, tools like databases, spreadsheets data pipelines cannot agree on how to properly parse data. 
+
+Disclosure: I've been developing this on my own time, without any organization affiliation. It's meant to be open source, community driven, to maximize the possibility of full implementation 
+
+thank you for your attention! 
+
+References: 
+
+Website: [https://www.csvplusplus.com/](https://www.csvplusplus.com/)   
+Repository: [https://github.com/mscaldas2012/csvplusplus](https://github.com/mscaldas2012/csvplusplus)   
+RFC: [https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/](https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/)",Open Source,,
+"bigquery fails to extract schema from google cloud storage hello, i hope everyone is doing good.  
+i have run to a problem.
+
+my airflow script : load a data file **.parquet** to the **cloud storage**  
+then -> it creates a table in **bigquery** and the -> load the data from that **.parquet** file in cloud storage to the table in **bigquery.**
+
+  
+the problem is : if i provide the schemas of the data ( that need to be loaded from cloud storage to bigquery), the table get created and get the schema with the data (all good) but if i dont provide the schema as i commented bellow, **bigquery** through an error ( **no schema found )** 
+
+    create_gcs_external_table = BigQueryCreateExternalTableOperator(
+        task_id=""create_external_table"",
+        bucket=GCS_BUCKET_NAME,
+        source_objects=[GCS_FILE_PATH], # Relative path inside bucket (without gs:// prefix)
+        source_format=""PARQUET"",
+        destination_project_dataset_table=f'{BIGQUERY_DATASET}.{BIGQUERY_TABLE_NAME}',
+        gcp_conn_id=""google_cloud_default"",
+        autodetect=True, # Let BigQuery infer the schema automatically
+    
+    
+        # schema_fields=[
+        #     {""name"": ""VendorID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_pickup_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_dropoff_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""passenger_count"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""trip_distance"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""RatecodeID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""store_and_fwd_flag"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""PULocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""DOLocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""payment_type"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""fare_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""extra"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""mta_tax"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tip_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tolls_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""improvement_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""total_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""congestion_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        # ],
+    
+    
+    )
+
+**how i can do it automaticaly ?** 
+
+**i thought about the parser, maybe the script turning a dataframe to parquet before ingesting it to the google cloude storage uses a different parser than what bigquery is trying to parse with !!**
+
+    df = pd.read_csv(target_compressed_csv, low_memory=False)
+    
+    df.to_parquet(local_parquet_path, engine=""pyarrow"", compression=""snappy"")",Help,,
+Let's improve on CSV?,Open Source,,
+One should be data analyst to become a data engineer?,Discussion,,
+"Looking for pain points for data engineers about upstream and downstream schema changes and how you solve it. Risk and migitation strategies discussion. Hello, I’m part of a product management course and my team is doing discovery research and we have decided to investigate 2am(and everyday) data pipeline failures due to downstream or upstream schema changes from 3rd party vendors or in-house engineers.
+
+I would very much like to hear your experience with the field both in the traditional era, pre-date modern data solutions but also fast-forward today. What are the current risk and mitigations strategies and actionable plans you have set in motion in your lifetime.
+
+Anything could be of value, and I'm very transparent so if you have questions about motive or want the why and how of our journey I'm happy to write it in.
+
+Examples of particular pain points could include:
+
+* vendor API responses changing unexpectedly
+* columns being renamed, removed, or changing type
+* scraper outputs changing when websites change
+* dbt models, warehouse tables, dashboards, or downstream jobs breaking because of schema drift
+* late-night / on-call incidents caused by data contract or schema issues
+
+  
+We’re trying to understand the real workflow: how teams detect these changes, who gets paged, how fixes happen, what tools people already use, and what parts are still painful.
+
+If you got any particular insight you can always reach out. I'm aware that interviews are out of the question so I want to open up it as a discussion that anyone can learn from - particular me as I have no to limited experience in big data.
+
+Happy wednesday and many thanks in advance.
+
+P.s. if you have any pointers on finding expert viewpoints or articles regarding this it would be as appreciated.",Discussion,,
+"Load .json from VScode to Snowflake Hello, I'm learning DE and i'm on a project.   
+  
+My question might be ridiculous. so I'm sorry.  
+  
+I'm working on VScode, and thanks to an API I've got a .json() so now i want to load my data on Snowflake to be able to start ""transform"" my data but I have no clue how to load my data to snowflake.  
+All the data i worked with during my teaching class were on a S3 server and it was easy to get it.   
+In my terminal i do 'python3 request.py', i can see the data but no idea how to load it to snowflake.  
+  
+My vscode and snowflake are linked  
+  
+Thanks by advance",Help,,
+"AI isn't closing the skill gap on data teams, it's widening it",Discussion,,
+"Need a template/guidelines for a final report on a BI/Data Engineering project (curricular internship) Hey guys!
+
+For my curricular internship I built an ETL pipeline using medallion architecture (bronze, silver, gold) on Microsoft Fabric. The source data are Excel files pulled from a container in Azure Data Storage, and I have a ""run layer"" support notebook for each stage of the pipeline. The final model is a star schema, on top of which I built Power BI reports.
+
+This was my first time doing an end-to-end project like this, and now I need to write a final report covering everything I did, how the data is processed, the modelling decisions, etc.
+
+The problem: my university doesn't provide a template for this kind of report (BI/Data Engineering or otherwise), and the company I interned at only has separate Functional Analysis and Technical Design templates, which split things up differently than what I need for a single end-to-end report.
+
+So I'm looking for pointers on how to structure this: what sections to include, how much detail to go into for each layer/process, how to document data modelling decisions, etc. Any templates you've used or would recommend? Happy to share more details about the project if it helps with suggestions.
+
+Thanks",Help,,
+Snowflake data model for retail – feedback?,Discussion,,
+Anyone used Spark Connect?,Discussion,,
+"Ingesting 1million order books per second, real time, into KDB with Rust.",Personal Project Showcase,,
+ContractForge - Start with intent. Then think about the platform.,Career,,
+Should I switch from Windows to Linux for Data Engineering? Which Distro is best,Discussion,,
+"benchmarked Pandas, DuckDB, and Polars on 20M rows across 10 operations...",Discussion,,
+Standard profiling libraries completely break on time series data (I learned it the hard way and came up with a solution),Personal Project Showcase,,
+We open-sourced Chukei: a self-hosted Snowflake cost proxy for read-heavy workloads,Open Source,,
+Suggest 1 place to explore the below services,Career,,
+"I built a CLI tool that analyzes BigQuery tables 
+and explains what the data means using AI",Personal Project Showcase,,
+Making projects or learning tools-which would help me land a job,Help,,
+"I am building a declarative, zero-panic database migration engine to replace fragile enterprise suites.",Personal Project Showcase,,
+worlcup 26 with AI feature,Personal Project Showcase,,
+Using a medallion architecture that customer insights journey consumes from,Help,,
+"Medallion + Kimball I’m working on a project that uses the medallion architecture but we’re also trying to set up a data model that follows kimballs facts and dim table. 
+
+in what layer does this live in?
+
+  
+initially I thought it’d live in silver but I’m ready that silver is more like raw tables that have been cleaned up. now I’m conflicted on if it should live in gold but I’m reading that  gold should be report ready tables so now I’m scratching my head.
+
+i know there’s not a hard fast rule to this as its not a one size fits all thing but what have been your experiences?",Help,,
+"How did you weigh a higher paying but toxic offer against a stable, lower paying job? Hey everyone, some background to help paint a picture:
+
+* I have nearly 5 years of experience as a data migration engineer/specialist, specifically in SaaS/CRM/Salesforce environments.
+* I've worked across 3 different verticals, so I've had decent exposure to a range of datasets and business rules.
+* Tech wise..strictly Python, SQL, and Excel, no fancier tools, and none of the companies I've worked for have used any.
+* I currently make $78k and live in a top 3 most expensive city in the US. My salary covers my expenses, but leaves little room for savings.
+* My current job is stable with growth potential, but it's likely slow, I don't expect big jumps in salary even with promotions, which may come in the next 1-2 years.
+
+With that out of the way: I recently got an offer for a role with a different title that functions essentially the same as my current job, still no fancy tools, but in a new vertical for me.
+
+The pay is much higher, $135k, fully remote, with 10% travel. My concern is that nearly every review I've read online describes a toxic environment and high turnover. Out of my 5 interviews (8 different people total), only one person had been there >= 1.5 years, despite the company being around for about 10.
+
+Alternatively, I could take this offer to my current employer as leverage. Realistically, I doubt they'd counter above $90-95k, maybe $100k at the absolute best.
+
+I'm still young(30) and feel like I'm at a crossroads. I don't want to be blinded by the salary, but I also don't know when I'll get a shot at this kind of money again, I've never even broken six figures.
+
+Would love to hear any advice or stories from people who've had to make a similar decision.",Career,,
+"What do to with data context? I have been hearing a lot on data context during Snowflake and Databricks event. I mean all the vendor where pitching some sort of context related solution.
+
+Yes, I understand that it brings knowledge to your LLM and they can understand the business domain, but the question is SQL generation / natural language to insights or AI/BI is extremely tricky. In the world of software engineers the code generation are not directly impacting the decision worse case it regenerates and fixes the bug. I believe the code generation is more standardised and LLM have very less chance of hallucination as improvements keep rolling. 
+
+For SQL if a business user asks: show me the productA revenue trend for past week? 
+
+The question is what is the accuracy of the SQL generation, even its 90% that means 1 in 10 question will be incorrect and the business decision will negatively impacted. 
+
+Would love to hear more views and are we chasing the right target?",Discussion,,
+"Airflow sensors, Snowflake views and a few unexpected bottlenecks",Blog,,
+Capstone: a leakage-audited clinical length-of-stay pipeline (dbt + DuckDB + sklearn),Personal Project Showcase,,
+How do you guyz manage your Jupyter notebooks without losing your mind?,Discussion,,
+How do you guyz manage your Jupyter notebooks without losing your mind? :😢,Help,,
+where can i get this diagram template,Help,,
+Is kaggle still relevant?,Discussion,,
+AXA or GFT technologies? What to choose?,Career,,
+"Data Engineering benchmarks for Ai tooling. My team is trying to evaluate different agentic DE setups.  We see two main benchmarks (dbt's ADE bench and UC Berkeley's DAB).
+
+We see a bunch of solutions scoring themselves against this.  But for ADE it's self reported.
+
+Plus the setups we want to benchmark are all a bit different from what the Benchmark sites are reporting on. 
+
+Does anybody have guidance on how to approach this, especially in a way that does not burn through a gazillion tokens.
+
+We are a Claude shop, if that helps.  We run on both Snowflake and Databricks and Genie and CoCo are both part of the evaluation.",Discussion,,
+Need references and tutorials link,Help,,
+Medallion Architecture and dbt modeling,Open Source,,
+personal project showcase - worlcup 2026 with AI feature,Personal Project Showcase,,
+How many Airflow Tasks do you schedule daily?,Discussion,,
+Side project  - worldcup 2026 databrick with three tiers,Personal Project Showcase,,
+Tech stack pivot experiences,Career,,
+"4 YOE in Payment Operations Support - Continue .NET or Switch to Azure Data Engineering, Current in-hand salary is 50k at Infosys?",Help,,
+new to data engineering - how do you measure agent performance and troubleshoot? (sales bot),Career,,
+"Where should ""drop bad rows"" live -- in the transform, or in a separate data-quality step? (medallion pipeline)",Help,,
+"Anyone use duckdb/ducklake in production? I work for a startup and trying to introduce ducklake as our main datalake solution and plan to start from the ETL pipeline to ingest data into ducklake directly. Could you share you experience if you are doing something similar in production? About the stability and performance.
+
+Thanks.",Discussion,,
+Career Transition Suggestion,Career,,
+Where do AI-assisted data workflows actually break for data engineers?,Discussion,,
+"Unified Data Repository Hi, I'm new to this field so one question I have is how do you guys consolidate data from different sources? Even better is if they're able to be classified according to context.   
+  
+May I know what tools, platform, or methodology you employ?",Help,,
+Colin Jarvis | Head of Forward Deployed Engineering at OpenAI: Trust. Pr...,Career,,
+Biggest challenge in Data Pipeline,Discussion,,
+"Databricks vs Snowflake vs Azure/GCP/AWS products Hello fellow data engineers! I don't use any of these database services but I'm trying to wrap my head around what the point is.
+
+  
+Granted, I work for a tiny company and we manage our data mostly through direct cloud (AWS) and python/sql scripts.
+
+So my question is, why does YOUR company use Databricks/Snowflake, and why don't you use nothing, or one of the similar services as a package with your cloud provider?
+
+Looking for the REAL reasons, not the marketing copy you tell investors or your boss. For example, we use Bloomberg not because it's a great data platform, but because it's a great social network of finance people, as well as a trade management system. Everything else is replaceable.
+
+Appreciate your time!",Discussion,,
+"DB development (migrations, dbt) in a multi-dev set up I work at a large organization where you are given access to a database server based on your application. And usually you’re given three DB servers for the app: for dev, for qa and for prod. Great! But we’ve found that while that is fine for one developer making changes, it becomes clunky when multiple developers are working on DB-related coding tweaks. (Alembic migrations, dbt scripts, etc.)
+
+To account for this, our dev team wanted to install MS SQL Server Developer edition locally and do dev work there before pushing changes to the dev server we all work out of for testing the application.
+
+IT said this would out of standard and their developers just work in the dev servers so we can too (basically). 
+
+So I’m just wondering if we’re doing something wrong with our dev approach currently that would allow us to just work on the same dev db server or if we need to push IT a bit on this. Thanks!",Help,,
+Graph-to-relational transform. Am I doomed?,Help,,
+"How get more invitations as a DE? How to improve my knowledge check I am a Python developer with 5/6 years of experience. I have worked with FastAPI and a bit with Flask. I struggle a bit with Dockers but normally in the cover letter I say that I manage it.
+
+Regarding SQL: I consider myself intermediate level: can do Joins and filters (having, where...) and also groupping. I have never done CTE but I think after like 10 hours practicing I could manage it, which by the way is what I am trying to do these next weeks.
+
+I have some basic knowledge from R
+
+More into DE field. 
+
+I am kind of confident in PySpark. I would have to get better into repartition and coalesce, but I kind of understand what's going on.
+
+I got a voucher to do the Databricks Engineer Associate that I will redeem in like 2/3 weeks. Right now I am getting 60% of the exam right. In the cover letter however I ""exagerate"" saying that I already have it.
+
+I am doing also a course which will give me a voucher for an AWS exam too. The one of cloud practicioner. 
+
+  
+And here my question. Why can't I even get a call for a DE job? Am I missing a lot of stuff? I feel like when I read a job description I have sometimes 90% of the things they are asking for. But I get rejected and rejected. Since October I have sent more than 35 requests with the covering letter and just 2 talks. 
+
+  
+What would you improve? I was thinking about getting some more basic certifications and publishing it in likeding (things like Snowflake and DBT maybe). Are they extremely hard?
+
+What would be your approach? I am kind of lost and I don't know why I am being constantly rejected.",Career,,
+"I need scrapers hosting advice! Data Engineers, where do you host your web scraping process? I'm looking for an affordable hosting service that can support large scale scraping specifically, preferably as functions or workflows?",Discussion,,
+Feedback: Multi-modal dataset pipeline,Discussion,,
+Junior Recommendations to get into the field,Career,,
+How do you actually monitor Databricks job failures? Ours failed silently for 3 days.,Discussion,,
+How would you store millions of 1MB–1GB objects without keeping indexes in RAM?,Open Source,,
+Advice for a physicist that wants to transition to the data world,Help,,
+"Spent 1 month building this project - ""Excalidraw Sketch to Schema and vice versa"", What do you think?",Personal Project Showcase,,
+"Data at Scale: one-day conference on large-scale data processing (Amsterdam, 7 July 2026) Hosting a one-day, single-track conference in Amsterdam on 7 July. In person, no breakouts.
+
+The CFP bar is real-world analysis of large datasets. Vendors and competitors welcome on the same terms as practitioners. We favor talks from people who actually ran the workload.
+
+Opening keynote from Alexey Milovidov (original author of ClickHouse). The rest of the program comes from open CFP.
+
+\- Website: [https://dataatscale.dev](https://dataatscale.dev)  
+\- Registration (Luma, free): [https://luma.com/clickh-ha56](https://luma.com/clickh-ha56)   
+\- CFP (Sessionize, open until 20 June): [https://sessionize.com/data-at-scale-amsterdam/](https://sessionize.com/data-at-scale-amsterdam/) 
+
+ClickHouse hosts and organizes the event. Data at Scale stands as a community conference in its own right.",Open Source,,
+"Silver or gold layer I have two scenarios : i need to create a beneficiary hub
+
+&#x200B;
+
+Case 1 : i need to have conformed dimension for beneficiary where bwneficiary are coming f4om 3 different entitites ( everything is unique )
+
+&#x200B;
+
+Case 2: i need to have conformed dimension for beneficiary where bwneficiary are coming from 3 different entitites (some overlap ) 
+
+&#x200B;
+
+Please note the granularity is not same across beneficiary table from 3 systems
+
+&#x200B;
+
+Where should i place this ?  Should this be placed in silver or should this be placed in gold
+
+&#x200B;
+
+I belive it should be placed in silver",Help,,
+"DAIS 2026 Databricks updates I am creating a playlist on youtube to follow the latest announcements by Databricks in DAIS 2026. 
+
+The series will cover what was the problem,
+
+What Databricks announced
+
+And, why does it matter to the Data community (basically the impact)
+
+Please follow along if you don't want to spend hours in watching the keynotes.
+
+https://youtu.be/jb4uLAM2SRA?si=IseC5sat5gUuU-S6
+
+Thank you for the support.",Blog,,
+looking for the best free courses to start my Data Engineering journey.,Career,,
+Do you outsource managed services? And to whom?,Help,,
+Besteedt iemand managed services uit? En aan wie?,Help,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Architectural critique: Streaming massive CSVs on edge devices with a strict 15MB RAM boundary (OOM bypass),Personal Project Showcase,,
+Advice on Finding Freelance / Part-Time Data Engineering Work,Career,,
+Why does every data incident feel like the same nightmare on repeat,Discussion,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Devops or data engineering?,Help,,
+Why Data Engineers Are Paying Attention to Altimate,Career,,
+"Out of the scraping game a few years, what does everyone run now? Did a lot of scrapy + custom middleware back in 2021. Picking it up again, this time I need to scrape google search results at scale. Way more anti bot now, cloudflare everywhere. You all still doing it on your own, or has the serp side moved to apis? just want to know what people actually use daily.",Help,,
+data analyse (ingenerie de donnees),Blog,,
+"Is the compTIA A+ material interesting for a DE with lots of data knowledge but no IT background? Basically, I came into DE via a research PhD in economics. My first role had me mainly building models in SQL, some batchjobs, mainframe and scheduling, little to no devOps, no cloud. My second role now got me the whole shebang: spark, devOps, Airflow, SQL, cloud and on prem, containers, MLops, linux... Because of my economics background im really strong in the data part of the job, I also read Kimball and DDIA etc through the years, but I feel like I'm missing most of the basics in IT otherwise (basic OS (although I have my linux homeserver), networking, DSA...) and I notice this when my colleagues talk about the more technical part of containers, ports, releases of certain programs, APIs etc.
+
+My job gave me an O'Reilly learn account and I found the compTIA prep courses/books. I was wondering if these are a nice basis for becoming a more technical DE without a CS degree (not interested in actually doing the exams though). Anybody has experience with this?",Discussion,,
+"Are hard deletes still common in new data sources in 2026? Hi all,
+
+I'm looking for your input and real world experiences.
+
+**Case** *(updated description)*:
+
+I'm tasked with ingesting data daily into a Microsoft Fabric Lakehouse (medallion architecture).
+
+The data source is a new operational app built on Azure SQL Database.
+
+The Azure SQL DB will have ~50 tables with relatively lightweight rows (~30 columns, no large text/blob fields).
+
+The app team owning the Azure SQL DB plans to use hard deletes only, with no CDC, no soft deletes.
+
+- Is this still common in 2026?
+
+- Would you push back on this? 
+
+   - If yes - how hard would you push back?
+
+- When does daily full copy from source become unrealistic (10M / 100M / 1B rows)?
+
+Thanks in advance!",Discussion,,
+What skills do I need in today's day and AI age to land a new role?,Career,,
+Is Data Engineering quietly becoming the most important role in AI?,Career,,
+"GitHub - krishnashakula/browsewright: Give an LLM a URL and a goal — it drives a real browser, fills forms, and returns structured data. The browser that scripts itself.",Open Source,,
+"Built a SQL game where all query execution runs client-side via SQLite WASM - no backend, no server costs",Personal Project Showcase,,
+"Case Study or Live Session - Which do you hate more? I'm the hiring process. Just spent like 6-7hrs on a ""case study,"" inventing scenarios, putting together some slides etc, then interviewed this morning, only to get rejected after a third round. So pissed. Thought I aced that thing all around. So it got me thinking--I have never actually gotten a job from doing a case study, but I've done probably half dozen of those things in the past and gotten pretty far in the hiring rounds. I'm senior enough now that I think in the future, I'll decline any ""opportunities"" where you spend 5+ hours on BS homework with no compensation. 
+
+Thoughts? Which would you prefer?",Career,,
+Looking for quick and easy way to get some work,Career,,
+Cheap/OSINT tools for historical social graphs,Help,,
+Transition to Data Engineering,Discussion,,
+Does a dbt staging view full scan the source table every run?,Discussion,,
+"DE to SA move in USA Has anyone made such move in USA from DE to SE ? Do we get to be technical in SE role? I talked with one of the SAs and he said SA role is very difficult. Your AE matters how your work life balance is. Some said you don’t even get to meet your manager.  
+How does the on call look like ? 
+
+I’d really appreciate advice on what to consider from these two offers.
+
+SE role at Databricks - TC low 300s  
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+"Moving from Data Engineering to Solutions Engineering Has anyone made such move in USA? 
+
+SE role at Databricks - TC low 300s   
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+I built an architecture to stop dbt bill shock at the PR level. Would love feedback.,Discussion,,
+Need study partner for gcp data engineering,Help,,
+Data/AI Engineer trying to break into freelancing/consulting – looking for real-world advice,Career,,
+"Balancing developer velocity with governance after last week's Snowflake Summit Snowflake announced CoCo Desktop and Snowflake CoWork at Summit, as ways for developers and business users to build agents on the platfrom. This means that automated pipeline generation and AI-generated data are going to scale quickly. It also means that the focus now turns to preventing pipeline redundancy, establishing trusted context, and managing non-human session access.
+
+I wrote a no-fluff recap of Snowflake's newly announced features that make up the contorl plane of the agentic enterprise. [Read the full post here](https://www.capitalone.com/software/blog/scaling-agentic-enterprise-snowflake/?utm_campaign=sf_summit&utm_source=reddit&utm_medium=social-organic).",Blog,,
+"Roadmap for Data Engineer in Fintech industry Hi folks,
+
+I’m currently working in a Facilities Management firm in the UK where a lot of the reporting and data work is heavily relied on Excel with SQL being used relatively less as it is handled by mainly development team. All I do is querying data from different databases. Only few reports are done in Power BI and luckily I am working on one of the reports from scratch. 
+
+My aim is to move into the finance industry, ideally as a Data Engineer to begin with. 
+
+I currently hold a Master’s in Business Analysis and Consulting and have my Bachelors in CS. I’ve worked with Python before and also used to do competitive programming in C++, so I’m comfortable with technical concepts.
+
+I’m currently trying to strengthen my SQL further by focusing on more advanced concepts like CTEs, subqueries, window functions etc.
+
+Also preparing for PL-300 power BI certification to begin with then gradually into Databricks, PySpark. But I feel I still need clarity is the exact roadmap.
+
+I’m not fully sure if I should do PySpark first or advanced SQL first or when should I start familiarising myself with databricks before azure or any other cloud services 
+
+I’d really appreciate advice from people already working in data roles, especially in finance, BI, or data engineering.
+
+Thanks :)",Help,,
+SnowPro Certification worth it?,Help,,
+"Databricks conference I have been attending the databricks conference, but nothing has stood out to me as being very exciting.
+
+&#x200B;
+
+Have folks found anything interesting or something you may actually be excited for in the DE space?",Discussion,,
+"Lets improve CSV? Hi everyone, 
+
+If you ever dealt with CSV, which I'm sure most of us here have, you've faced problems to represent real data like repeating fields and hierarchies with the flatness of CSV. There's many ways to solve that problem - and the variety is what hurts us. Sometimes we create column\_1, column\_2, column\_3 for repeating fields. sometimes we create multiple csv files, sometimes we repeat rows, etc. 
+
+Having hierarchy, or relationships between columns in csv is unheard of. I've used prefixes on the column names, but that is just too vague. With that in mind, I've been trying to have some standard where everyone can develop solutions n a similar fashion and with that, make it a lot more robust and reusable. I'm proposing an RFC that tackles those two issues without making it super cumbersome. This is not a replacement for JSON or XML for extreme examples, but is a way to fill the gap for simpler scenarios where a full jump into JSON/XML parsers are not the best, or we are stuck with CSV for whatever reason. 
+
+We can all continue to creating one-off solutions for going around how to implement repeating fields and hierarchy, but thats wasteful. And if there's no consensus, tools like databases, spreadsheets data pipelines cannot agree on how to properly parse data. 
+
+Disclosure: I've been developing this on my own time, without any organization affiliation. It's meant to be open source, community driven, to maximize the possibility of full implementation 
+
+thank you for your attention! 
+
+References: 
+
+Website: [https://www.csvplusplus.com/](https://www.csvplusplus.com/)   
+Repository: [https://github.com/mscaldas2012/csvplusplus](https://github.com/mscaldas2012/csvplusplus)   
+RFC: [https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/](https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/)",Open Source,,
+"bigquery fails to extract schema from google cloud storage hello, i hope everyone is doing good.  
+i have run to a problem.
+
+my airflow script : load a data file **.parquet** to the **cloud storage**  
+then -> it creates a table in **bigquery** and the -> load the data from that **.parquet** file in cloud storage to the table in **bigquery.**
+
+  
+the problem is : if i provide the schemas of the data ( that need to be loaded from cloud storage to bigquery), the table get created and get the schema with the data (all good) but if i dont provide the schema as i commented bellow, **bigquery** through an error ( **no schema found )** 
+
+    create_gcs_external_table = BigQueryCreateExternalTableOperator(
+        task_id=""create_external_table"",
+        bucket=GCS_BUCKET_NAME,
+        source_objects=[GCS_FILE_PATH], # Relative path inside bucket (without gs:// prefix)
+        source_format=""PARQUET"",
+        destination_project_dataset_table=f'{BIGQUERY_DATASET}.{BIGQUERY_TABLE_NAME}',
+        gcp_conn_id=""google_cloud_default"",
+        autodetect=True, # Let BigQuery infer the schema automatically
+    
+    
+        # schema_fields=[
+        #     {""name"": ""VendorID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_pickup_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_dropoff_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""passenger_count"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""trip_distance"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""RatecodeID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""store_and_fwd_flag"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""PULocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""DOLocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""payment_type"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""fare_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""extra"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""mta_tax"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tip_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tolls_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""improvement_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""total_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""congestion_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        # ],
+    
+    
+    )
+
+**how i can do it automaticaly ?** 
+
+**i thought about the parser, maybe the script turning a dataframe to parquet before ingesting it to the google cloude storage uses a different parser than what bigquery is trying to parse with !!**
+
+    df = pd.read_csv(target_compressed_csv, low_memory=False)
+    
+    df.to_parquet(local_parquet_path, engine=""pyarrow"", compression=""snappy"")",Help,,
+Let's improve on CSV?,Open Source,,
+One should be data analyst to become a data engineer?,Discussion,,
+"Looking for pain points for data engineers about upstream and downstream schema changes and how you solve it. Risk and migitation strategies discussion. Hello, I’m part of a product management course and my team is doing discovery research and we have decided to investigate 2am(and everyday) data pipeline failures due to downstream or upstream schema changes from 3rd party vendors or in-house engineers.
+
+I would very much like to hear your experience with the field both in the traditional era, pre-date modern data solutions but also fast-forward today. What are the current risk and mitigations strategies and actionable plans you have set in motion in your lifetime.
+
+Anything could be of value, and I'm very transparent so if you have questions about motive or want the why and how of our journey I'm happy to write it in.
+
+Examples of particular pain points could include:
+
+* vendor API responses changing unexpectedly
+* columns being renamed, removed, or changing type
+* scraper outputs changing when websites change
+* dbt models, warehouse tables, dashboards, or downstream jobs breaking because of schema drift
+* late-night / on-call incidents caused by data contract or schema issues
+
+  
+We’re trying to understand the real workflow: how teams detect these changes, who gets paged, how fixes happen, what tools people already use, and what parts are still painful.
+
+If you got any particular insight you can always reach out. I'm aware that interviews are out of the question so I want to open up it as a discussion that anyone can learn from - particular me as I have no to limited experience in big data.
+
+Happy wednesday and many thanks in advance.
+
+P.s. if you have any pointers on finding expert viewpoints or articles regarding this it would be as appreciated.",Discussion,,
+"Load .json from VScode to Snowflake Hello, I'm learning DE and i'm on a project.   
+  
+My question might be ridiculous. so I'm sorry.  
+  
+I'm working on VScode, and thanks to an API I've got a .json() so now i want to load my data on Snowflake to be able to start ""transform"" my data but I have no clue how to load my data to snowflake.  
+All the data i worked with during my teaching class were on a S3 server and it was easy to get it.   
+In my terminal i do 'python3 request.py', i can see the data but no idea how to load it to snowflake.  
+  
+My vscode and snowflake are linked  
+  
+Thanks by advance",Help,,
+"AI isn't closing the skill gap on data teams, it's widening it",Discussion,,
+"Need a template/guidelines for a final report on a BI/Data Engineering project (curricular internship) Hey guys!
+
+For my curricular internship I built an ETL pipeline using medallion architecture (bronze, silver, gold) on Microsoft Fabric. The source data are Excel files pulled from a container in Azure Data Storage, and I have a ""run layer"" support notebook for each stage of the pipeline. The final model is a star schema, on top of which I built Power BI reports.
+
+This was my first time doing an end-to-end project like this, and now I need to write a final report covering everything I did, how the data is processed, the modelling decisions, etc.
+
+The problem: my university doesn't provide a template for this kind of report (BI/Data Engineering or otherwise), and the company I interned at only has separate Functional Analysis and Technical Design templates, which split things up differently than what I need for a single end-to-end report.
+
+So I'm looking for pointers on how to structure this: what sections to include, how much detail to go into for each layer/process, how to document data modelling decisions, etc. Any templates you've used or would recommend? Happy to share more details about the project if it helps with suggestions.
+
+Thanks",Help,,
+Snowflake data model for retail – feedback?,Discussion,,
+Anyone used Spark Connect?,Discussion,,
+"Ingesting 1million order books per second, real time, into KDB with Rust.",Personal Project Showcase,,
+ContractForge - Start with intent. Then think about the platform.,Career,,
+Should I switch from Windows to Linux for Data Engineering? Which Distro is best,Discussion,,
+"benchmarked Pandas, DuckDB, and Polars on 20M rows across 10 operations...",Discussion,,
+Standard profiling libraries completely break on time series data (I learned it the hard way and came up with a solution),Personal Project Showcase,,
+We open-sourced Chukei: a self-hosted Snowflake cost proxy for read-heavy workloads,Open Source,,
+Suggest 1 place to explore the below services,Career,,
+"I built a CLI tool that analyzes BigQuery tables 
+and explains what the data means using AI",Personal Project Showcase,,
+Making projects or learning tools-which would help me land a job,Help,,
+"I am building a declarative, zero-panic database migration engine to replace fragile enterprise suites.",Personal Project Showcase,,
+worlcup 26 with AI feature,Personal Project Showcase,,
+Using a medallion architecture that customer insights journey consumes from,Help,,
+"Medallion + Kimball I’m working on a project that uses the medallion architecture but we’re also trying to set up a data model that follows kimballs facts and dim table. 
+
+in what layer does this live in?
+
+  
+initially I thought it’d live in silver but I’m ready that silver is more like raw tables that have been cleaned up. now I’m conflicted on if it should live in gold but I’m reading that  gold should be report ready tables so now I’m scratching my head.
+
+i know there’s not a hard fast rule to this as its not a one size fits all thing but what have been your experiences?",Help,,
+"How did you weigh a higher paying but toxic offer against a stable, lower paying job? Hey everyone, some background to help paint a picture:
+
+* I have nearly 5 years of experience as a data migration engineer/specialist, specifically in SaaS/CRM/Salesforce environments.
+* I've worked across 3 different verticals, so I've had decent exposure to a range of datasets and business rules.
+* Tech wise..strictly Python, SQL, and Excel, no fancier tools, and none of the companies I've worked for have used any.
+* I currently make $78k and live in a top 3 most expensive city in the US. My salary covers my expenses, but leaves little room for savings.
+* My current job is stable with growth potential, but it's likely slow, I don't expect big jumps in salary even with promotions, which may come in the next 1-2 years.
+
+With that out of the way: I recently got an offer for a role with a different title that functions essentially the same as my current job, still no fancy tools, but in a new vertical for me.
+
+The pay is much higher, $135k, fully remote, with 10% travel. My concern is that nearly every review I've read online describes a toxic environment and high turnover. Out of my 5 interviews (8 different people total), only one person had been there >= 1.5 years, despite the company being around for about 10.
+
+Alternatively, I could take this offer to my current employer as leverage. Realistically, I doubt they'd counter above $90-95k, maybe $100k at the absolute best.
+
+I'm still young(30) and feel like I'm at a crossroads. I don't want to be blinded by the salary, but I also don't know when I'll get a shot at this kind of money again, I've never even broken six figures.
+
+Would love to hear any advice or stories from people who've had to make a similar decision.",Career,,
+"What do to with data context? I have been hearing a lot on data context during Snowflake and Databricks event. I mean all the vendor where pitching some sort of context related solution.
+
+Yes, I understand that it brings knowledge to your LLM and they can understand the business domain, but the question is SQL generation / natural language to insights or AI/BI is extremely tricky. In the world of software engineers the code generation are not directly impacting the decision worse case it regenerates and fixes the bug. I believe the code generation is more standardised and LLM have very less chance of hallucination as improvements keep rolling. 
+
+For SQL if a business user asks: show me the productA revenue trend for past week? 
+
+The question is what is the accuracy of the SQL generation, even its 90% that means 1 in 10 question will be incorrect and the business decision will negatively impacted. 
+
+Would love to hear more views and are we chasing the right target?",Discussion,,
+"Airflow sensors, Snowflake views and a few unexpected bottlenecks",Blog,,
+Capstone: a leakage-audited clinical length-of-stay pipeline (dbt + DuckDB + sklearn),Personal Project Showcase,,
+How do you guyz manage your Jupyter notebooks without losing your mind?,Discussion,,
+How do you guyz manage your Jupyter notebooks without losing your mind? :😢,Help,,
+where can i get this diagram template,Help,,
+Is kaggle still relevant?,Discussion,,
+AXA or GFT technologies? What to choose?,Career,,
+"Data Engineering benchmarks for Ai tooling. My team is trying to evaluate different agentic DE setups.  We see two main benchmarks (dbt's ADE bench and UC Berkeley's DAB).
+
+We see a bunch of solutions scoring themselves against this.  But for ADE it's self reported.
+
+Plus the setups we want to benchmark are all a bit different from what the Benchmark sites are reporting on. 
+
+Does anybody have guidance on how to approach this, especially in a way that does not burn through a gazillion tokens.
+
+We are a Claude shop, if that helps.  We run on both Snowflake and Databricks and Genie and CoCo are both part of the evaluation.",Discussion,,
+Need references and tutorials link,Help,,
+Medallion Architecture and dbt modeling,Open Source,,
+personal project showcase - worlcup 2026 with AI feature,Personal Project Showcase,,
+How many Airflow Tasks do you schedule daily?,Discussion,,
+Side project  - worldcup 2026 databrick with three tiers,Personal Project Showcase,,
+Tech stack pivot experiences,Career,,
+"4 YOE in Payment Operations Support - Continue .NET or Switch to Azure Data Engineering, Current in-hand salary is 50k at Infosys?",Help,,
+new to data engineering - how do you measure agent performance and troubleshoot? (sales bot),Career,,
+"Where should ""drop bad rows"" live -- in the transform, or in a separate data-quality step? (medallion pipeline)",Help,,
+"Anyone use duckdb/ducklake in production? I work for a startup and trying to introduce ducklake as our main datalake solution and plan to start from the ETL pipeline to ingest data into ducklake directly. Could you share you experience if you are doing something similar in production? About the stability and performance.
+
+Thanks.",Discussion,,
+Career Transition Suggestion,Career,,
+Where do AI-assisted data workflows actually break for data engineers?,Discussion,,
+"Unified Data Repository Hi, I'm new to this field so one question I have is how do you guys consolidate data from different sources? Even better is if they're able to be classified according to context.   
+  
+May I know what tools, platform, or methodology you employ?",Help,,
+Colin Jarvis | Head of Forward Deployed Engineering at OpenAI: Trust. Pr...,Career,,
+Biggest challenge in Data Pipeline,Discussion,,
+"Databricks vs Snowflake vs Azure/GCP/AWS products Hello fellow data engineers! I don't use any of these database services but I'm trying to wrap my head around what the point is.
+
+  
+Granted, I work for a tiny company and we manage our data mostly through direct cloud (AWS) and python/sql scripts.
+
+So my question is, why does YOUR company use Databricks/Snowflake, and why don't you use nothing, or one of the similar services as a package with your cloud provider?
+
+Looking for the REAL reasons, not the marketing copy you tell investors or your boss. For example, we use Bloomberg not because it's a great data platform, but because it's a great social network of finance people, as well as a trade management system. Everything else is replaceable.
+
+Appreciate your time!",Discussion,,
+"DB development (migrations, dbt) in a multi-dev set up I work at a large organization where you are given access to a database server based on your application. And usually you’re given three DB servers for the app: for dev, for qa and for prod. Great! But we’ve found that while that is fine for one developer making changes, it becomes clunky when multiple developers are working on DB-related coding tweaks. (Alembic migrations, dbt scripts, etc.)
+
+To account for this, our dev team wanted to install MS SQL Server Developer edition locally and do dev work there before pushing changes to the dev server we all work out of for testing the application.
+
+IT said this would out of standard and their developers just work in the dev servers so we can too (basically). 
+
+So I’m just wondering if we’re doing something wrong with our dev approach currently that would allow us to just work on the same dev db server or if we need to push IT a bit on this. Thanks!",Help,,
+Graph-to-relational transform. Am I doomed?,Help,,
+"How get more invitations as a DE? How to improve my knowledge check I am a Python developer with 5/6 years of experience. I have worked with FastAPI and a bit with Flask. I struggle a bit with Dockers but normally in the cover letter I say that I manage it.
+
+Regarding SQL: I consider myself intermediate level: can do Joins and filters (having, where...) and also groupping. I have never done CTE but I think after like 10 hours practicing I could manage it, which by the way is what I am trying to do these next weeks.
+
+I have some basic knowledge from R
+
+More into DE field. 
+
+I am kind of confident in PySpark. I would have to get better into repartition and coalesce, but I kind of understand what's going on.
+
+I got a voucher to do the Databricks Engineer Associate that I will redeem in like 2/3 weeks. Right now I am getting 60% of the exam right. In the cover letter however I ""exagerate"" saying that I already have it.
+
+I am doing also a course which will give me a voucher for an AWS exam too. The one of cloud practicioner. 
+
+  
+And here my question. Why can't I even get a call for a DE job? Am I missing a lot of stuff? I feel like when I read a job description I have sometimes 90% of the things they are asking for. But I get rejected and rejected. Since October I have sent more than 35 requests with the covering letter and just 2 talks. 
+
+  
+What would you improve? I was thinking about getting some more basic certifications and publishing it in likeding (things like Snowflake and DBT maybe). Are they extremely hard?
+
+What would be your approach? I am kind of lost and I don't know why I am being constantly rejected.",Career,,
+"I need scrapers hosting advice! Data Engineers, where do you host your web scraping process? I'm looking for an affordable hosting service that can support large scale scraping specifically, preferably as functions or workflows?",Discussion,,
+Feedback: Multi-modal dataset pipeline,Discussion,,
+Junior Recommendations to get into the field,Career,,
+How do you actually monitor Databricks job failures? Ours failed silently for 3 days.,Discussion,,
+How would you store millions of 1MB–1GB objects without keeping indexes in RAM?,Open Source,,
+Advice for a physicist that wants to transition to the data world,Help,,
+"Spent 1 month building this project - ""Excalidraw Sketch to Schema and vice versa"", What do you think?",Personal Project Showcase,,
+"Data at Scale: one-day conference on large-scale data processing (Amsterdam, 7 July 2026) Hosting a one-day, single-track conference in Amsterdam on 7 July. In person, no breakouts.
+
+The CFP bar is real-world analysis of large datasets. Vendors and competitors welcome on the same terms as practitioners. We favor talks from people who actually ran the workload.
+
+Opening keynote from Alexey Milovidov (original author of ClickHouse). The rest of the program comes from open CFP.
+
+\- Website: [https://dataatscale.dev](https://dataatscale.dev)  
+\- Registration (Luma, free): [https://luma.com/clickh-ha56](https://luma.com/clickh-ha56)   
+\- CFP (Sessionize, open until 20 June): [https://sessionize.com/data-at-scale-amsterdam/](https://sessionize.com/data-at-scale-amsterdam/) 
+
+ClickHouse hosts and organizes the event. Data at Scale stands as a community conference in its own right.",Open Source,,
+"Silver or gold layer I have two scenarios : i need to create a beneficiary hub
+
+&#x200B;
+
+Case 1 : i need to have conformed dimension for beneficiary where bwneficiary are coming f4om 3 different entitites ( everything is unique )
+
+&#x200B;
+
+Case 2: i need to have conformed dimension for beneficiary where bwneficiary are coming from 3 different entitites (some overlap ) 
+
+&#x200B;
+
+Please note the granularity is not same across beneficiary table from 3 systems
+
+&#x200B;
+
+Where should i place this ?  Should this be placed in silver or should this be placed in gold
+
+&#x200B;
+
+I belive it should be placed in silver",Help,,
+"DAIS 2026 Databricks updates I am creating a playlist on youtube to follow the latest announcements by Databricks in DAIS 2026. 
+
+The series will cover what was the problem,
+
+What Databricks announced
+
+And, why does it matter to the Data community (basically the impact)
+
+Please follow along if you don't want to spend hours in watching the keynotes.
+
+https://youtu.be/jb4uLAM2SRA?si=IseC5sat5gUuU-S6
+
+Thank you for the support.",Blog,,
+looking for the best free courses to start my Data Engineering journey.,Career,,
+Do you outsource managed services? And to whom?,Help,,
+Besteedt iemand managed services uit? En aan wie?,Help,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Architectural critique: Streaming massive CSVs on edge devices with a strict 15MB RAM boundary (OOM bypass),Personal Project Showcase,,
+Advice on Finding Freelance / Part-Time Data Engineering Work,Career,,
+Why does every data incident feel like the same nightmare on repeat,Discussion,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Devops or data engineering?,Help,,
+Why Data Engineers Are Paying Attention to Altimate,Career,,
+"Out of the scraping game a few years, what does everyone run now? Did a lot of scrapy + custom middleware back in 2021. Picking it up again, this time I need to scrape google search results at scale. Way more anti bot now, cloudflare everywhere. You all still doing it on your own, or has the serp side moved to apis? just want to know what people actually use daily.",Help,,
+data analyse (ingenerie de donnees),Blog,,
+"Is the compTIA A+ material interesting for a DE with lots of data knowledge but no IT background? Basically, I came into DE via a research PhD in economics. My first role had me mainly building models in SQL, some batchjobs, mainframe and scheduling, little to no devOps, no cloud. My second role now got me the whole shebang: spark, devOps, Airflow, SQL, cloud and on prem, containers, MLops, linux... Because of my economics background im really strong in the data part of the job, I also read Kimball and DDIA etc through the years, but I feel like I'm missing most of the basics in IT otherwise (basic OS (although I have my linux homeserver), networking, DSA...) and I notice this when my colleagues talk about the more technical part of containers, ports, releases of certain programs, APIs etc.
+
+My job gave me an O'Reilly learn account and I found the compTIA prep courses/books. I was wondering if these are a nice basis for becoming a more technical DE without a CS degree (not interested in actually doing the exams though). Anybody has experience with this?",Discussion,,
+"Are hard deletes still common in new data sources in 2026? Hi all,
+
+I'm looking for your input and real world experiences.
+
+**Case** *(updated description)*:
+
+I'm tasked with ingesting data daily into a Microsoft Fabric Lakehouse (medallion architecture).
+
+The data source is a new operational app built on Azure SQL Database.
+
+The Azure SQL DB will have ~50 tables with relatively lightweight rows (~30 columns, no large text/blob fields).
+
+The app team owning the Azure SQL DB plans to use hard deletes only, with no CDC, no soft deletes.
+
+- Is this still common in 2026?
+
+- Would you push back on this? 
+
+   - If yes - how hard would you push back?
+
+- When does daily full copy from source become unrealistic (10M / 100M / 1B rows)?
+
+Thanks in advance!",Discussion,,
+What skills do I need in today's day and AI age to land a new role?,Career,,
+Is Data Engineering quietly becoming the most important role in AI?,Career,,
+"GitHub - krishnashakula/browsewright: Give an LLM a URL and a goal — it drives a real browser, fills forms, and returns structured data. The browser that scripts itself.",Open Source,,
+"Built a SQL game where all query execution runs client-side via SQLite WASM - no backend, no server costs",Personal Project Showcase,,
+"Case Study or Live Session - Which do you hate more? I'm the hiring process. Just spent like 6-7hrs on a ""case study,"" inventing scenarios, putting together some slides etc, then interviewed this morning, only to get rejected after a third round. So pissed. Thought I aced that thing all around. So it got me thinking--I have never actually gotten a job from doing a case study, but I've done probably half dozen of those things in the past and gotten pretty far in the hiring rounds. I'm senior enough now that I think in the future, I'll decline any ""opportunities"" where you spend 5+ hours on BS homework with no compensation. 
+
+Thoughts? Which would you prefer?",Career,,
+Looking for quick and easy way to get some work,Career,,
+Cheap/OSINT tools for historical social graphs,Help,,
+Transition to Data Engineering,Discussion,,
+Does a dbt staging view full scan the source table every run?,Discussion,,
+"DE to SA move in USA Has anyone made such move in USA from DE to SE ? Do we get to be technical in SE role? I talked with one of the SAs and he said SA role is very difficult. Your AE matters how your work life balance is. Some said you don’t even get to meet your manager.  
+How does the on call look like ? 
+
+I’d really appreciate advice on what to consider from these two offers.
+
+SE role at Databricks - TC low 300s  
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+"Moving from Data Engineering to Solutions Engineering Has anyone made such move in USA? 
+
+SE role at Databricks - TC low 300s   
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+I built an architecture to stop dbt bill shock at the PR level. Would love feedback.,Discussion,,
+Need study partner for gcp data engineering,Help,,
+Data/AI Engineer trying to break into freelancing/consulting – looking for real-world advice,Career,,
+"Balancing developer velocity with governance after last week's Snowflake Summit Snowflake announced CoCo Desktop and Snowflake CoWork at Summit, as ways for developers and business users to build agents on the platfrom. This means that automated pipeline generation and AI-generated data are going to scale quickly. It also means that the focus now turns to preventing pipeline redundancy, establishing trusted context, and managing non-human session access.
+
+I wrote a no-fluff recap of Snowflake's newly announced features that make up the contorl plane of the agentic enterprise. [Read the full post here](https://www.capitalone.com/software/blog/scaling-agentic-enterprise-snowflake/?utm_campaign=sf_summit&utm_source=reddit&utm_medium=social-organic).",Blog,,
+"Roadmap for Data Engineer in Fintech industry Hi folks,
+
+I’m currently working in a Facilities Management firm in the UK where a lot of the reporting and data work is heavily relied on Excel with SQL being used relatively less as it is handled by mainly development team. All I do is querying data from different databases. Only few reports are done in Power BI and luckily I am working on one of the reports from scratch. 
+
+My aim is to move into the finance industry, ideally as a Data Engineer to begin with. 
+
+I currently hold a Master’s in Business Analysis and Consulting and have my Bachelors in CS. I’ve worked with Python before and also used to do competitive programming in C++, so I’m comfortable with technical concepts.
+
+I’m currently trying to strengthen my SQL further by focusing on more advanced concepts like CTEs, subqueries, window functions etc.
+
+Also preparing for PL-300 power BI certification to begin with then gradually into Databricks, PySpark. But I feel I still need clarity is the exact roadmap.
+
+I’m not fully sure if I should do PySpark first or advanced SQL first or when should I start familiarising myself with databricks before azure or any other cloud services 
+
+I’d really appreciate advice from people already working in data roles, especially in finance, BI, or data engineering.
+
+Thanks :)",Help,,
+SnowPro Certification worth it?,Help,,
+"Databricks conference I have been attending the databricks conference, but nothing has stood out to me as being very exciting.
+
+&#x200B;
+
+Have folks found anything interesting or something you may actually be excited for in the DE space?",Discussion,,
+"Lets improve CSV? Hi everyone, 
+
+If you ever dealt with CSV, which I'm sure most of us here have, you've faced problems to represent real data like repeating fields and hierarchies with the flatness of CSV. There's many ways to solve that problem - and the variety is what hurts us. Sometimes we create column\_1, column\_2, column\_3 for repeating fields. sometimes we create multiple csv files, sometimes we repeat rows, etc. 
+
+Having hierarchy, or relationships between columns in csv is unheard of. I've used prefixes on the column names, but that is just too vague. With that in mind, I've been trying to have some standard where everyone can develop solutions n a similar fashion and with that, make it a lot more robust and reusable. I'm proposing an RFC that tackles those two issues without making it super cumbersome. This is not a replacement for JSON or XML for extreme examples, but is a way to fill the gap for simpler scenarios where a full jump into JSON/XML parsers are not the best, or we are stuck with CSV for whatever reason. 
+
+We can all continue to creating one-off solutions for going around how to implement repeating fields and hierarchy, but thats wasteful. And if there's no consensus, tools like databases, spreadsheets data pipelines cannot agree on how to properly parse data. 
+
+Disclosure: I've been developing this on my own time, without any organization affiliation. It's meant to be open source, community driven, to maximize the possibility of full implementation 
+
+thank you for your attention! 
+
+References: 
+
+Website: [https://www.csvplusplus.com/](https://www.csvplusplus.com/)   
+Repository: [https://github.com/mscaldas2012/csvplusplus](https://github.com/mscaldas2012/csvplusplus)   
+RFC: [https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/](https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/)",Open Source,,
+"bigquery fails to extract schema from google cloud storage hello, i hope everyone is doing good.  
+i have run to a problem.
+
+my airflow script : load a data file **.parquet** to the **cloud storage**  
+then -> it creates a table in **bigquery** and the -> load the data from that **.parquet** file in cloud storage to the table in **bigquery.**
+
+  
+the problem is : if i provide the schemas of the data ( that need to be loaded from cloud storage to bigquery), the table get created and get the schema with the data (all good) but if i dont provide the schema as i commented bellow, **bigquery** through an error ( **no schema found )** 
+
+    create_gcs_external_table = BigQueryCreateExternalTableOperator(
+        task_id=""create_external_table"",
+        bucket=GCS_BUCKET_NAME,
+        source_objects=[GCS_FILE_PATH], # Relative path inside bucket (without gs:// prefix)
+        source_format=""PARQUET"",
+        destination_project_dataset_table=f'{BIGQUERY_DATASET}.{BIGQUERY_TABLE_NAME}',
+        gcp_conn_id=""google_cloud_default"",
+        autodetect=True, # Let BigQuery infer the schema automatically
+    
+    
+        # schema_fields=[
+        #     {""name"": ""VendorID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_pickup_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_dropoff_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""passenger_count"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""trip_distance"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""RatecodeID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""store_and_fwd_flag"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""PULocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""DOLocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""payment_type"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""fare_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""extra"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""mta_tax"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tip_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tolls_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""improvement_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""total_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""congestion_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        # ],
+    
+    
+    )
+
+**how i can do it automaticaly ?** 
+
+**i thought about the parser, maybe the script turning a dataframe to parquet before ingesting it to the google cloude storage uses a different parser than what bigquery is trying to parse with !!**
+
+    df = pd.read_csv(target_compressed_csv, low_memory=False)
+    
+    df.to_parquet(local_parquet_path, engine=""pyarrow"", compression=""snappy"")",Help,,
+Let's improve on CSV?,Open Source,,
+One should be data analyst to become a data engineer?,Discussion,,
+"Looking for pain points for data engineers about upstream and downstream schema changes and how you solve it. Risk and migitation strategies discussion. Hello, I’m part of a product management course and my team is doing discovery research and we have decided to investigate 2am(and everyday) data pipeline failures due to downstream or upstream schema changes from 3rd party vendors or in-house engineers.
+
+I would very much like to hear your experience with the field both in the traditional era, pre-date modern data solutions but also fast-forward today. What are the current risk and mitigations strategies and actionable plans you have set in motion in your lifetime.
+
+Anything could be of value, and I'm very transparent so if you have questions about motive or want the why and how of our journey I'm happy to write it in.
+
+Examples of particular pain points could include:
+
+* vendor API responses changing unexpectedly
+* columns being renamed, removed, or changing type
+* scraper outputs changing when websites change
+* dbt models, warehouse tables, dashboards, or downstream jobs breaking because of schema drift
+* late-night / on-call incidents caused by data contract or schema issues
+
+  
+We’re trying to understand the real workflow: how teams detect these changes, who gets paged, how fixes happen, what tools people already use, and what parts are still painful.
+
+If you got any particular insight you can always reach out. I'm aware that interviews are out of the question so I want to open up it as a discussion that anyone can learn from - particular me as I have no to limited experience in big data.
+
+Happy wednesday and many thanks in advance.
+
+P.s. if you have any pointers on finding expert viewpoints or articles regarding this it would be as appreciated.",Discussion,,
+"Load .json from VScode to Snowflake Hello, I'm learning DE and i'm on a project.   
+  
+My question might be ridiculous. so I'm sorry.  
+  
+I'm working on VScode, and thanks to an API I've got a .json() so now i want to load my data on Snowflake to be able to start ""transform"" my data but I have no clue how to load my data to snowflake.  
+All the data i worked with during my teaching class were on a S3 server and it was easy to get it.   
+In my terminal i do 'python3 request.py', i can see the data but no idea how to load it to snowflake.  
+  
+My vscode and snowflake are linked  
+  
+Thanks by advance",Help,,
+"AI isn't closing the skill gap on data teams, it's widening it",Discussion,,
+"Need a template/guidelines for a final report on a BI/Data Engineering project (curricular internship) Hey guys!
+
+For my curricular internship I built an ETL pipeline using medallion architecture (bronze, silver, gold) on Microsoft Fabric. The source data are Excel files pulled from a container in Azure Data Storage, and I have a ""run layer"" support notebook for each stage of the pipeline. The final model is a star schema, on top of which I built Power BI reports.
+
+This was my first time doing an end-to-end project like this, and now I need to write a final report covering everything I did, how the data is processed, the modelling decisions, etc.
+
+The problem: my university doesn't provide a template for this kind of report (BI/Data Engineering or otherwise), and the company I interned at only has separate Functional Analysis and Technical Design templates, which split things up differently than what I need for a single end-to-end report.
+
+So I'm looking for pointers on how to structure this: what sections to include, how much detail to go into for each layer/process, how to document data modelling decisions, etc. Any templates you've used or would recommend? Happy to share more details about the project if it helps with suggestions.
+
+Thanks",Help,,
+Snowflake data model for retail – feedback?,Discussion,,
+"Ingesting 1million order books per second, real time, into KDB with Rust.",Personal Project Showcase,,
+ContractForge - Start with intent. Then think about the platform.,Career,,
+Should I switch from Windows to Linux for Data Engineering? Which Distro is best,Discussion,,
+"benchmarked Pandas, DuckDB, and Polars on 20M rows across 10 operations...",Discussion,,
+Standard profiling libraries completely break on time series data (I learned it the hard way and came up with a solution),Personal Project Showcase,,
+We open-sourced Chukei: a self-hosted Snowflake cost proxy for read-heavy workloads,Open Source,,
+Suggest 1 place to explore the below services,Career,,
+"I built a CLI tool that analyzes BigQuery tables 
+and explains what the data means using AI",Personal Project Showcase,,
+Making projects or learning tools-which would help me land a job,Help,,
+"I am building a declarative, zero-panic database migration engine to replace fragile enterprise suites.",Personal Project Showcase,,
+worlcup 26 with AI feature,Personal Project Showcase,,
+Using a medallion architecture that customer insights journey consumes from,Help,,
+"Medallion + Kimball I’m working on a project that uses the medallion architecture but we’re also trying to set up a data model that follows kimballs facts and dim table. 
+
+in what layer does this live in?
+
+  
+initially I thought it’d live in silver but I’m ready that silver is more like raw tables that have been cleaned up. now I’m conflicted on if it should live in gold but I’m reading that  gold should be report ready tables so now I’m scratching my head.
+
+i know there’s not a hard fast rule to this as its not a one size fits all thing but what have been your experiences?",Help,,
+"How did you weigh a higher paying but toxic offer against a stable, lower paying job? Hey everyone, some background to help paint a picture:
+
+* I have nearly 5 years of experience as a data migration engineer/specialist, specifically in SaaS/CRM/Salesforce environments.
+* I've worked across 3 different verticals, so I've had decent exposure to a range of datasets and business rules.
+* Tech wise..strictly Python, SQL, and Excel, no fancier tools, and none of the companies I've worked for have used any.
+* I currently make $78k and live in a top 3 most expensive city in the US. My salary covers my expenses, but leaves little room for savings.
+* My current job is stable with growth potential, but it's likely slow, I don't expect big jumps in salary even with promotions, which may come in the next 1-2 years.
+
+With that out of the way: I recently got an offer for a role with a different title that functions essentially the same as my current job, still no fancy tools, but in a new vertical for me.
+
+The pay is much higher, $135k, fully remote, with 10% travel. My concern is that nearly every review I've read online describes a toxic environment and high turnover. Out of my 5 interviews (8 different people total), only one person had been there >= 1.5 years, despite the company being around for about 10.
+
+Alternatively, I could take this offer to my current employer as leverage. Realistically, I doubt they'd counter above $90-95k, maybe $100k at the absolute best.
+
+I'm still young(30) and feel like I'm at a crossroads. I don't want to be blinded by the salary, but I also don't know when I'll get a shot at this kind of money again, I've never even broken six figures.
+
+Would love to hear any advice or stories from people who've had to make a similar decision.",Career,,
+"What do to with data context? I have been hearing a lot on data context during Snowflake and Databricks event. I mean all the vendor where pitching some sort of context related solution.
+
+Yes, I understand that it brings knowledge to your LLM and they can understand the business domain, but the question is SQL generation / natural language to insights or AI/BI is extremely tricky. In the world of software engineers the code generation are not directly impacting the decision worse case it regenerates and fixes the bug. I believe the code generation is more standardised and LLM have very less chance of hallucination as improvements keep rolling. 
+
+For SQL if a business user asks: show me the productA revenue trend for past week? 
+
+The question is what is the accuracy of the SQL generation, even its 90% that means 1 in 10 question will be incorrect and the business decision will negatively impacted. 
+
+Would love to hear more views and are we chasing the right target?",Discussion,,
+"Airflow sensors, Snowflake views and a few unexpected bottlenecks",Blog,,
+Capstone: a leakage-audited clinical length-of-stay pipeline (dbt + DuckDB + sklearn),Personal Project Showcase,,
+How do you guyz manage your Jupyter notebooks without losing your mind?,Discussion,,
+How do you guyz manage your Jupyter notebooks without losing your mind? :😢,Help,,
+where can i get this diagram template,Help,,
+Is kaggle still relevant?,Discussion,,
+AXA or GFT technologies? What to choose?,Career,,
+"Data Engineering benchmarks for Ai tooling. My team is trying to evaluate different agentic DE setups.  We see two main benchmarks (dbt's ADE bench and UC Berkeley's DAB).
+
+We see a bunch of solutions scoring themselves against this.  But for ADE it's self reported.
+
+Plus the setups we want to benchmark are all a bit different from what the Benchmark sites are reporting on. 
+
+Does anybody have guidance on how to approach this, especially in a way that does not burn through a gazillion tokens.
+
+We are a Claude shop, if that helps.  We run on both Snowflake and Databricks and Genie and CoCo are both part of the evaluation.",Discussion,,
+Need references and tutorials link,Help,,
+Medallion Architecture and dbt modeling,Open Source,,
+personal project showcase - worlcup 2026 with AI feature,Personal Project Showcase,,
+How many Airflow Tasks do you schedule daily?,Discussion,,
+Side project  - worldcup 2026 databrick with three tiers,Personal Project Showcase,,
+Tech stack pivot experiences,Career,,
+"4 YOE in Payment Operations Support - Continue .NET or Switch to Azure Data Engineering, Current in-hand salary is 50k at Infosys?",Help,,
+new to data engineering - how do you measure agent performance and troubleshoot? (sales bot),Career,,
+"Where should ""drop bad rows"" live -- in the transform, or in a separate data-quality step? (medallion pipeline)",Help,,
+"Anyone use duckdb/ducklake in production? I work for a startup and trying to introduce ducklake as our main datalake solution and plan to start from the ETL pipeline to ingest data into ducklake directly. Could you share you experience if you are doing something similar in production? About the stability and performance.
+
+Thanks.",Discussion,,
+Career Transition Suggestion,Career,,
+Where do AI-assisted data workflows actually break for data engineers?,Discussion,,
+"Unified Data Repository Hi, I'm new to this field so one question I have is how do you guys consolidate data from different sources? Even better is if they're able to be classified according to context.   
+  
+May I know what tools, platform, or methodology you employ?",Help,,
+Colin Jarvis | Head of Forward Deployed Engineering at OpenAI: Trust. Pr...,Career,,
+Biggest challenge in Data Pipeline,Discussion,,
+"Databricks vs Snowflake vs Azure/GCP/AWS products Hello fellow data engineers! I don't use any of these database services but I'm trying to wrap my head around what the point is.
+
+  
+Granted, I work for a tiny company and we manage our data mostly through direct cloud (AWS) and python/sql scripts.
+
+So my question is, why does YOUR company use Databricks/Snowflake, and why don't you use nothing, or one of the similar services as a package with your cloud provider?
+
+Looking for the REAL reasons, not the marketing copy you tell investors or your boss. For example, we use Bloomberg not because it's a great data platform, but because it's a great social network of finance people, as well as a trade management system. Everything else is replaceable.
+
+Appreciate your time!",Discussion,,
+"DB development (migrations, dbt) in a multi-dev set up I work at a large organization where you are given access to a database server based on your application. And usually you’re given three DB servers for the app: for dev, for qa and for prod. Great! But we’ve found that while that is fine for one developer making changes, it becomes clunky when multiple developers are working on DB-related coding tweaks. (Alembic migrations, dbt scripts, etc.)
+
+To account for this, our dev team wanted to install MS SQL Server Developer edition locally and do dev work there before pushing changes to the dev server we all work out of for testing the application.
+
+IT said this would out of standard and their developers just work in the dev servers so we can too (basically). 
+
+So I’m just wondering if we’re doing something wrong with our dev approach currently that would allow us to just work on the same dev db server or if we need to push IT a bit on this. Thanks!",Help,,
+Graph-to-relational transform. Am I doomed?,Help,,
+"How get more invitations as a DE? How to improve my knowledge check I am a Python developer with 5/6 years of experience. I have worked with FastAPI and a bit with Flask. I struggle a bit with Dockers but normally in the cover letter I say that I manage it.
+
+Regarding SQL: I consider myself intermediate level: can do Joins and filters (having, where...) and also groupping. I have never done CTE but I think after like 10 hours practicing I could manage it, which by the way is what I am trying to do these next weeks.
+
+I have some basic knowledge from R
+
+More into DE field. 
+
+I am kind of confident in PySpark. I would have to get better into repartition and coalesce, but I kind of understand what's going on.
+
+I got a voucher to do the Databricks Engineer Associate that I will redeem in like 2/3 weeks. Right now I am getting 60% of the exam right. In the cover letter however I ""exagerate"" saying that I already have it.
+
+I am doing also a course which will give me a voucher for an AWS exam too. The one of cloud practicioner. 
+
+  
+And here my question. Why can't I even get a call for a DE job? Am I missing a lot of stuff? I feel like when I read a job description I have sometimes 90% of the things they are asking for. But I get rejected and rejected. Since October I have sent more than 35 requests with the covering letter and just 2 talks. 
+
+  
+What would you improve? I was thinking about getting some more basic certifications and publishing it in likeding (things like Snowflake and DBT maybe). Are they extremely hard?
+
+What would be your approach? I am kind of lost and I don't know why I am being constantly rejected.",Career,,
+"I need scrapers hosting advice! Data Engineers, where do you host your web scraping process? I'm looking for an affordable hosting service that can support large scale scraping specifically, preferably as functions or workflows?",Discussion,,
+Feedback: Multi-modal dataset pipeline,Discussion,,
+Junior Recommendations to get into the field,Career,,
+How do you actually monitor Databricks job failures? Ours failed silently for 3 days.,Discussion,,
+How would you store millions of 1MB–1GB objects without keeping indexes in RAM?,Open Source,,
+Advice for a physicist that wants to transition to the data world,Help,,
+"Spent 1 month building this project - ""Excalidraw Sketch to Schema and vice versa"", What do you think?",Personal Project Showcase,,
+"Data at Scale: one-day conference on large-scale data processing (Amsterdam, 7 July 2026) Hosting a one-day, single-track conference in Amsterdam on 7 July. In person, no breakouts.
+
+The CFP bar is real-world analysis of large datasets. Vendors and competitors welcome on the same terms as practitioners. We favor talks from people who actually ran the workload.
+
+Opening keynote from Alexey Milovidov (original author of ClickHouse). The rest of the program comes from open CFP.
+
+\- Website: [https://dataatscale.dev](https://dataatscale.dev)  
+\- Registration (Luma, free): [https://luma.com/clickh-ha56](https://luma.com/clickh-ha56)   
+\- CFP (Sessionize, open until 20 June): [https://sessionize.com/data-at-scale-amsterdam/](https://sessionize.com/data-at-scale-amsterdam/) 
+
+ClickHouse hosts and organizes the event. Data at Scale stands as a community conference in its own right.",Open Source,,
+"Silver or gold layer I have two scenarios : i need to create a beneficiary hub
+
+&#x200B;
+
+Case 1 : i need to have conformed dimension for beneficiary where bwneficiary are coming f4om 3 different entitites ( everything is unique )
+
+&#x200B;
+
+Case 2: i need to have conformed dimension for beneficiary where bwneficiary are coming from 3 different entitites (some overlap ) 
+
+&#x200B;
+
+Please note the granularity is not same across beneficiary table from 3 systems
+
+&#x200B;
+
+Where should i place this ?  Should this be placed in silver or should this be placed in gold
+
+&#x200B;
+
+I belive it should be placed in silver",Help,,
+"DAIS 2026 Databricks updates I am creating a playlist on youtube to follow the latest announcements by Databricks in DAIS 2026. 
+
+The series will cover what was the problem,
+
+What Databricks announced
+
+And, why does it matter to the Data community (basically the impact)
+
+Please follow along if you don't want to spend hours in watching the keynotes.
+
+https://youtu.be/jb4uLAM2SRA?si=IseC5sat5gUuU-S6
+
+Thank you for the support.",Blog,,
+looking for the best free courses to start my Data Engineering journey.,Career,,
+Do you outsource managed services? And to whom?,Help,,
+Besteedt iemand managed services uit? En aan wie?,Help,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Architectural critique: Streaming massive CSVs on edge devices with a strict 15MB RAM boundary (OOM bypass),Personal Project Showcase,,
+Advice on Finding Freelance / Part-Time Data Engineering Work,Career,,
+Why does every data incident feel like the same nightmare on repeat,Discussion,,
+How are data teams in India using AI-assisted workflows today?,Discussion,,
+Devops or data engineering?,Help,,
+Why Data Engineers Are Paying Attention to Altimate,Career,,
+"Out of the scraping game a few years, what does everyone run now? Did a lot of scrapy + custom middleware back in 2021. Picking it up again, this time I need to scrape google search results at scale. Way more anti bot now, cloudflare everywhere. You all still doing it on your own, or has the serp side moved to apis? just want to know what people actually use daily.",Help,,
+data analyse (ingenerie de donnees),Blog,,
+"Is the compTIA A+ material interesting for a DE with lots of data knowledge but no IT background? Basically, I came into DE via a research PhD in economics. My first role had me mainly building models in SQL, some batchjobs, mainframe and scheduling, little to no devOps, no cloud. My second role now got me the whole shebang: spark, devOps, Airflow, SQL, cloud and on prem, containers, MLops, linux... Because of my economics background im really strong in the data part of the job, I also read Kimball and DDIA etc through the years, but I feel like I'm missing most of the basics in IT otherwise (basic OS (although I have my linux homeserver), networking, DSA...) and I notice this when my colleagues talk about the more technical part of containers, ports, releases of certain programs, APIs etc.
+
+My job gave me an O'Reilly learn account and I found the compTIA prep courses/books. I was wondering if these are a nice basis for becoming a more technical DE without a CS degree (not interested in actually doing the exams though). Anybody has experience with this?",Discussion,,
+"Are hard deletes still common in new data sources in 2026? Hi all,
+
+I'm looking for your input and real world experiences.
+
+**Case** *(updated description)*:
+
+I'm tasked with ingesting data daily into a Microsoft Fabric Lakehouse (medallion architecture).
+
+The data source is a new operational app built on Azure SQL Database.
+
+The Azure SQL DB will have ~50 tables with relatively lightweight rows (~30 columns, no large text/blob fields).
+
+The app team owning the Azure SQL DB plans to use hard deletes only, with no CDC, no soft deletes.
+
+- Is this still common in 2026?
+
+- Would you push back on this? 
+
+   - If yes - how hard would you push back?
+
+- When does daily full copy from source become unrealistic (10M / 100M / 1B rows)?
+
+Thanks in advance!",Discussion,,
+What skills do I need in today's day and AI age to land a new role?,Career,,
+Is Data Engineering quietly becoming the most important role in AI?,Career,,
+"GitHub - krishnashakula/browsewright: Give an LLM a URL and a goal — it drives a real browser, fills forms, and returns structured data. The browser that scripts itself.",Open Source,,
+"Built a SQL game where all query execution runs client-side via SQLite WASM - no backend, no server costs",Personal Project Showcase,,
+"Case Study or Live Session - Which do you hate more? I'm the hiring process. Just spent like 6-7hrs on a ""case study,"" inventing scenarios, putting together some slides etc, then interviewed this morning, only to get rejected after a third round. So pissed. Thought I aced that thing all around. So it got me thinking--I have never actually gotten a job from doing a case study, but I've done probably half dozen of those things in the past and gotten pretty far in the hiring rounds. I'm senior enough now that I think in the future, I'll decline any ""opportunities"" where you spend 5+ hours on BS homework with no compensation. 
+
+Thoughts? Which would you prefer?",Career,,
+Looking for quick and easy way to get some work,Career,,
+Cheap/OSINT tools for historical social graphs,Help,,
+Transition to Data Engineering,Discussion,,
+Does a dbt staging view full scan the source table every run?,Discussion,,
+"DE to SA move in USA Has anyone made such move in USA from DE to SE ? Do we get to be technical in SE role? I talked with one of the SAs and he said SA role is very difficult. Your AE matters how your work life balance is. Some said you don’t even get to meet your manager.  
+How does the on call look like ? 
+
+I’d really appreciate advice on what to consider from these two offers.
+
+SE role at Databricks - TC low 300s  
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+"Moving from Data Engineering to Solutions Engineering Has anyone made such move in USA? 
+
+SE role at Databricks - TC low 300s   
+DE role at startup - TC mid 200s
+
+Thanks",Career,,
+I built an architecture to stop dbt bill shock at the PR level. Would love feedback.,Discussion,,
+Need study partner for gcp data engineering,Help,,
+Data/AI Engineer trying to break into freelancing/consulting – looking for real-world advice,Career,,
+"Balancing developer velocity with governance after last week's Snowflake Summit Snowflake announced CoCo Desktop and Snowflake CoWork at Summit, as ways for developers and business users to build agents on the platfrom. This means that automated pipeline generation and AI-generated data are going to scale quickly. It also means that the focus now turns to preventing pipeline redundancy, establishing trusted context, and managing non-human session access.
+
+I wrote a no-fluff recap of Snowflake's newly announced features that make up the contorl plane of the agentic enterprise. [Read the full post here](https://www.capitalone.com/software/blog/scaling-agentic-enterprise-snowflake/?utm_campaign=sf_summit&utm_source=reddit&utm_medium=social-organic).",Blog,,
+"Roadmap for Data Engineer in Fintech industry Hi folks,
+
+I’m currently working in a Facilities Management firm in the UK where a lot of the reporting and data work is heavily relied on Excel with SQL being used relatively less as it is handled by mainly development team. All I do is querying data from different databases. Only few reports are done in Power BI and luckily I am working on one of the reports from scratch. 
+
+My aim is to move into the finance industry, ideally as a Data Engineer to begin with. 
+
+I currently hold a Master’s in Business Analysis and Consulting and have my Bachelors in CS. I’ve worked with Python before and also used to do competitive programming in C++, so I’m comfortable with technical concepts.
+
+I’m currently trying to strengthen my SQL further by focusing on more advanced concepts like CTEs, subqueries, window functions etc.
+
+Also preparing for PL-300 power BI certification to begin with then gradually into Databricks, PySpark. But I feel I still need clarity is the exact roadmap.
+
+I’m not fully sure if I should do PySpark first or advanced SQL first or when should I start familiarising myself with databricks before azure or any other cloud services 
+
+I’d really appreciate advice from people already working in data roles, especially in finance, BI, or data engineering.
+
+Thanks :)",Help,,
+SnowPro Certification worth it?,Help,,
+"Databricks conference I have been attending the databricks conference, but nothing has stood out to me as being very exciting.
+
+&#x200B;
+
+Have folks found anything interesting or something you may actually be excited for in the DE space?",Discussion,,
+"Lets improve CSV? Hi everyone, 
+
+If you ever dealt with CSV, which I'm sure most of us here have, you've faced problems to represent real data like repeating fields and hierarchies with the flatness of CSV. There's many ways to solve that problem - and the variety is what hurts us. Sometimes we create column\_1, column\_2, column\_3 for repeating fields. sometimes we create multiple csv files, sometimes we repeat rows, etc. 
+
+Having hierarchy, or relationships between columns in csv is unheard of. I've used prefixes on the column names, but that is just too vague. With that in mind, I've been trying to have some standard where everyone can develop solutions n a similar fashion and with that, make it a lot more robust and reusable. I'm proposing an RFC that tackles those two issues without making it super cumbersome. This is not a replacement for JSON or XML for extreme examples, but is a way to fill the gap for simpler scenarios where a full jump into JSON/XML parsers are not the best, or we are stuck with CSV for whatever reason. 
+
+We can all continue to creating one-off solutions for going around how to implement repeating fields and hierarchy, but thats wasteful. And if there's no consensus, tools like databases, spreadsheets data pipelines cannot agree on how to properly parse data. 
+
+Disclosure: I've been developing this on my own time, without any organization affiliation. It's meant to be open source, community driven, to maximize the possibility of full implementation 
+
+thank you for your attention! 
+
+References: 
+
+Website: [https://www.csvplusplus.com/](https://www.csvplusplus.com/)   
+Repository: [https://github.com/mscaldas2012/csvplusplus](https://github.com/mscaldas2012/csvplusplus)   
+RFC: [https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/](https://datatracker.ietf.org/doc/draft-mscaldas-csvpp/)",Open Source,,
+"bigquery fails to extract schema from google cloud storage hello, i hope everyone is doing good.  
+i have run to a problem.
+
+my airflow script : load a data file **.parquet** to the **cloud storage**  
+then -> it creates a table in **bigquery** and the -> load the data from that **.parquet** file in cloud storage to the table in **bigquery.**
+
+  
+the problem is : if i provide the schemas of the data ( that need to be loaded from cloud storage to bigquery), the table get created and get the schema with the data (all good) but if i dont provide the schema as i commented bellow, **bigquery** through an error ( **no schema found )** 
+
+    create_gcs_external_table = BigQueryCreateExternalTableOperator(
+        task_id=""create_external_table"",
+        bucket=GCS_BUCKET_NAME,
+        source_objects=[GCS_FILE_PATH], # Relative path inside bucket (without gs:// prefix)
+        source_format=""PARQUET"",
+        destination_project_dataset_table=f'{BIGQUERY_DATASET}.{BIGQUERY_TABLE_NAME}',
+        gcp_conn_id=""google_cloud_default"",
+        autodetect=True, # Let BigQuery infer the schema automatically
+    
+    
+        # schema_fields=[
+        #     {""name"": ""VendorID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_pickup_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tpep_dropoff_datetime"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""passenger_count"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""trip_distance"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""RatecodeID"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""store_and_fwd_flag"", ""type"": ""STRING"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""PULocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""DOLocationID"", ""type"": ""INTEGER"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""payment_type"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""fare_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""extra"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""mta_tax"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tip_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""tolls_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""improvement_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""total_amount"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        #     {""name"": ""congestion_surcharge"", ""type"": ""FLOAT"", ""mode"": ""NULLABLE""},
+        # ],
+    
+    
+    )
+
+**how i can do it automaticaly ?** 
+
+**i thought about the parser, maybe the script turning a dataframe to parquet before ingesting it to the google cloude storage uses a different parser than what bigquery is trying to parse with !!**
+
+    df = pd.read_csv(target_compressed_csv, low_memory=False)
+    
+    df.to_parquet(local_parquet_path, engine=""pyarrow"", compression=""snappy"")",Help,,
+Let's improve on CSV?,Open Source,,
+One should be data analyst to become a data engineer?,Discussion,,
+"Looking for pain points for data engineers about upstream and downstream schema changes and how you solve it. Risk and migitation strategies discussion. Hello, I’m part of a product management course and my team is doing discovery research and we have decided to investigate 2am(and everyday) data pipeline failures due to downstream or upstream schema changes from 3rd party vendors or in-house engineers.
+
+I would very much like to hear your experience with the field both in the traditional era, pre-date modern data solutions but also fast-forward today. What are the current risk and mitigations strategies and actionable plans you have set in motion in your lifetime.
+
+Anything could be of value, and I'm very transparent so if you have questions about motive or want the why and how of our journey I'm happy to write it in.
+
+Examples of particular pain points could include:
+
+* vendor API responses changing unexpectedly
+* columns being renamed, removed, or changing type
+* scraper outputs changing when websites change
+* dbt models, warehouse tables, dashboards, or downstream jobs breaking because of schema drift
+* late-night / on-call incidents caused by data contract or schema issues
+
+  
+We’re trying to understand the real workflow: how teams detect these changes, who gets paged, how fixes happen, what tools people already use, and what parts are still painful.
+
+If you got any particular insight you can always reach out. I'm aware that interviews are out of the question so I want to open up it as a discussion that anyone can learn from - particular me as I have no to limited experience in big data.
+
+Happy wednesday and many thanks in advance.
+
+P.s. if you have any pointers on finding expert viewpoints or articles regarding this it would be as appreciated.",Discussion,,
+"Load .json from VScode to Snowflake Hello, I'm learning DE and i'm on a project.   
+  
+My question might be ridiculous. so I'm sorry.  
+  
+I'm working on VScode, and thanks to an API I've got a .json() so now i want to load my data on Snowflake to be able to start ""transform"" my data but I have no clue how to load my data to snowflake.  
+All the data i worked with during my teaching class were on a S3 server and it was easy to get it.   
+In my terminal i do 'python3 request.py', i can see the data but no idea how to load it to snowflake.  
+  
+My vscode and snowflake are linked  
+  
+Thanks by advance",Help,,
+"AI isn't closing the skill gap on data teams, it's widening it",Discussion,,
+"Need a template/guidelines for a final report on a BI/Data Engineering project (curricular internship) Hey guys!
+
+For my curricular internship I built an ETL pipeline using medallion architecture (bronze, silver, gold) on Microsoft Fabric. The source data are Excel files pulled from a container in Azure Data Storage, and I have a ""run layer"" support notebook for each stage of the pipeline. The final model is a star schema, on top of which I built Power BI reports.
+
+This was my first time doing an end-to-end project like this, and now I need to write a final report covering everything I did, how the data is processed, the modelling decisions, etc.
+
+The problem: my university doesn't provide a template for this kind of report (BI/Data Engineering or otherwise), and the company I interned at only has separate Functional Analysis and Technical Design templates, which split things up differently than what I need for a single end-to-end report.
+
+So I'm looking for pointers on how to structure this: what sections to include, how much detail to go into for each layer/process, how to document data modelling decisions, etc. Any templates you've used or would recommend? Happy to share more details about the project if it helps with suggestions.
+
+Thanks",Help,,
