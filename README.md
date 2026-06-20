@@ -3,6 +3,7 @@
 A fine-tuned text classifier that categorizes posts from r/dataengineering
 into four categories: career, technical, opinion, and showcase.
 
+Video: https://www.loom.com/share/b44c4e9b29904d3eb4cb1b0110dd40c2
 ---
 
 ## Community Choice
